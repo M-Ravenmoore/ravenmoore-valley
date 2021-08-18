@@ -14,6 +14,7 @@ function NavigationBar(props){
     <Nav className="me-auto">
       <Nav.Link href="#/">Home</Nav.Link>
       <Nav.Link href="#about">About</Nav.Link>
+      <Nav.Link href="#artists">Artisan Directory</Nav.Link>
       <Nav.Link href="#news">News/Community Bulitin</Nav.Link>
       <Nav.Link href="#workshop">Muninn's Workshop</Nav.Link>
       <Nav.Link href="#menagerie">Huginn's Menagerie</Nav.Link>
