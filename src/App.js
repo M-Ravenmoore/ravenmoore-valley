@@ -4,8 +4,8 @@ import Header from './componets/Header/header';
 import Main from './componets/Main/main'
 import NavBar from './componets/Nav-Bar/nav'
 import Footer from './componets/Footer/footer';
-
-import './App.css';
+import './reset.css';
+import './Styles/app-dark.css';
 
 function App() {
   return (
