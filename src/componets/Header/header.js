@@ -10,6 +10,9 @@ export default function Header(props) {
       <img src="./images/Logo/Oro-red-black-solid.png" width="150px" alt="Logo"/>
 
       </div>
+      <div>
+       <h3>Currently under construction Please dont mind our mess!</h3> 
+      </div>
     </header>
   )
 }
