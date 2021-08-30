@@ -5,7 +5,7 @@ import Main from './componets/Main/main'
 import NavBar from './componets/Nav-Bar/nav'
 import Footer from './componets/Footer/footer';
 import './reset.css';
-import './App.css';
+import './Styles/app-dark.css';
 
 function App() {
   return (

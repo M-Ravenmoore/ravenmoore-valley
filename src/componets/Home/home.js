@@ -2,6 +2,8 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Carousel } from 'react-bootstrap';
 
+import './home.css'
+
 function Home(props){
 
   return(
