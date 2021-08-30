@@ -3,6 +3,8 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
+
+
 function NavigationBar(props){
 
   return(
@@ -24,8 +26,8 @@ function NavigationBar(props){
       <Nav.Link href="#about">About</Nav.Link>
       <Nav.Link href="#artists">Artisans</Nav.Link>
       <Nav.Link href="#news">News</Nav.Link>
-      <Nav.Link href="#workshop">Muninn's Workshop</Nav.Link>
-      <Nav.Link href="#menagerie">Huginn's Menagerie</Nav.Link>
+      <Nav.Link href="#workshop">Workshop</Nav.Link>
+      <Nav.Link href="#menagerie">Menagerie</Nav.Link>
       <Nav.Link href="#store">Store</Nav.Link>
     </Nav>
     </Container>
