@@ -1,7 +1,7 @@
 import React from 'react'
 import ArcadeSlides from './slideshow';
 
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 
 function Arcade (props){
 
