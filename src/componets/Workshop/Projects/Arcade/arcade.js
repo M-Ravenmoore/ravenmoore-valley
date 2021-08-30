@@ -1,7 +1,6 @@
 import React from 'react'
 import ArcadeSlides from './slideshow';
 
-
 function Arcade (props){
 
   return(

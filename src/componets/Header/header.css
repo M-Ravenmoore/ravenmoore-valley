@@ -4,14 +4,13 @@
   justify-content: center;
   width: 90%;
   align-items: center;
+  margin: auto;
 }
-
-h1{
-  margin: 150px;
-  
+.header h1{
+  margin: 10px;
   text-align: center;
 }
-img{
+.header img{
   width: 175px;
   margin:5px;
 }

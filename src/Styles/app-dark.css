@@ -3,13 +3,23 @@
 }
 
 .App h1 {
+  font-size: 2.3em;
   color: #9CEAFF;
   
 }
-h2{
-  font-size: 550%;
+.App h2{
+  font-size: 20pt;
   color: #9CEAFF;
 }
+
+.content-A{
+  background-color:rgba(48,16,98,.8);
+  border-radius: 45px;
+  text-align: center;
+  margin: 1.25em;
+  padding: 1.5em;
+}
+
 h3{
   color: #9CEAFF;
 }
