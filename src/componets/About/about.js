@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 
-import "./about.scss"
+
 
 function About(props){
 
@@ -16,7 +16,7 @@ function About(props){
         <h3>The Community Leaders and Rolls</h3>
       <section class="about-cards">
       
-        <Card >
+        <Card>
           <Card.Img src="../../public/images/thing.jpg" alt="Headshot" />
           <Card.Body>
             <Card.Title>Mastermind</Card.Title>

@@ -1,0 +1,27 @@
+.light {
+  --theme-body-background: rgb(255, 255, 255);
+  --theme-page-background: rgba(48, 16, 98, 0.60);
+  --theme-page-text: rgb(17, 17, 17);
+  --theme-page-htext: rgb(0, 0, 0);
+  --theme-nav-background:rgba(138, 13, 6, 0.80);
+  --theme-card-background: rgba(151, 183, 191, 0.70);
+  --theme-footer-background: rgba(138, 13, 6, 0.80);
+  --theme-panel-background:rgb(158, 221, 240);
+  --theme-nav-text:rgb(255, 255, 255);
+  --theme-btn-background: rgba(255, 255, 255, 0.55);
+  --theme-btn-text:rgb(0, 0, 0);
+}
+
+.dark {
+  --theme-body-background: rgb(0,0,0);
+  --theme-page-background: rgba(138, 13, 6, 0.85);
+  --theme-page-text: rgb(255, 255, 255);
+  --theme-page-htext: rgb(158, 221, 240);
+  --theme-nav-background:rgba(0, 0, 0, 0.60);
+  --theme-card-background:rgba(48,16,98,.75);
+  --theme-footer-background: rgb(48, 16, 98);
+  --theme-panel-background:rgba(48,16,98,.75);
+  --theme-nav-text:rgb(255, 255, 255);
+  --theme-btn-background: rgba(0, 0, 0, 0.35);
+  --theme-btn-text:rgb(255, 255, 255);
+}
