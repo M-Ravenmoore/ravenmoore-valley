@@ -2,6 +2,7 @@
 
 ## Author: Matt(Muninn) Ravenmoore 
 
+### Version: 1.1.2
 
 ## Available Scripts
 
@@ -53,3 +54,6 @@ Production deployment presetup: https://ravenmoore-valley.netlify.app  deployed 
 Git hub link: https://github.com/M-Ravenmoore/ravenmoore-valley
 
 miro link: https://miro.com/app/board/o9J_l3-FQTU=/
+
+
+dark mode switching referance https://dev.to/cmcwebcode40/simple-react-dark-mode-with-scss-lae

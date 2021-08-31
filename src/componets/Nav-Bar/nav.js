@@ -4,6 +4,8 @@ import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 
+import ThemeSwitch from "../ThemeSwitch/themeSwitch";
+
 
 function NavigationBar(props){
 
@@ -29,6 +31,7 @@ function NavigationBar(props){
       <Nav.Link href="#workshop">Workshop</Nav.Link>
       <Nav.Link href="#menagerie">Menagerie</Nav.Link>
       <Nav.Link href="#store">Store</Nav.Link>
+      <ThemeSwitch/>
     </Nav>
     </Container>
   </Navbar>

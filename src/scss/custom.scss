@@ -3,19 +3,20 @@
 
 
 .card{
-  background-color: rgba(47, 16, 98, 0.747);
+  background-color:var(--theme-card-background);
   border: 2px black solid;
   width: 70%;
 }
-.card h5{
-  color: rgb(210, 246, 252);
+.card h1,h2,h3,h4,h5,h6{
+  color: var(--theme-page-htext);
 }
-.card h6{
-  color: rgb(210, 246, 252);
+.card p{
+  color: var(--theme-page-text);
 }
 
 .btn{
-  background-color:rgba(0, 0, 0, 0.35);
+  color: var(--theme-btn-text);
+  background-color:var(--theme-btn-background);
   border:1px black solid ;
   width:45%;
   margin: 8px auto;

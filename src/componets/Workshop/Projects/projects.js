@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { CardColumns,Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 function Projects (props){
 
