@@ -14,3 +14,7 @@
   width: 175px;
   margin:5px;
 }
+header h3{
+  margin: 0;
+  text-align: center;
+}
