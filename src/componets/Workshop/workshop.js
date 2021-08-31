@@ -7,7 +7,7 @@ function Workshop (props){
 
   return(
     <div id='workshop'>
-      <section id='intro'>
+      <section id='intro' className="content-A">
         <h2>Muninn's Workshop</h2>
 
         <p>Welcome to My humble workshop it is where I design and create my public projects.  below you will find listed the current projects in the works follow the buttons to find out more.</p>
