@@ -19,10 +19,18 @@ export default function Footer() {
         </ul>
       </section>
       <section id="icons" >
-        <FontAwesomeIcon icon={faFacebook} size="2x"/>
-        <FontAwesomeIcon icon={faInstagram} size="2x"/>
-        <FontAwesomeIcon icon={faLinkedin} size="2x"/>
-        <FontAwesomeIcon icon={faDiscord} size="2x"/>
+        <div className="icon">
+          <FontAwesomeIcon icon={faFacebook} size="2x"/>
+        </div>
+        <div className="icon">
+          <FontAwesomeIcon icon={faInstagram} size="2x"/>
+        </div>
+        <div className="icon">
+         <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+        </div>
+        <div className="icon">
+          <FontAwesomeIcon icon={faDiscord} size="2x"/>
+        </div>
       </section>
       <section id="right-links">
         <ul>
