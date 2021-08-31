@@ -5,8 +5,8 @@ import Main from './componets/Main/main'
 import NavBar from './componets/Nav-Bar/nav'
 import Footer from './componets/Footer/footer';
 import './reset.css';
-import './Styles/app-dark.css';
-
+import './Global-Styles/app.css'
+import './Global-Styles/dark.css';
 function App() {
   return (
     <HashRouter>

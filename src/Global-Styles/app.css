@@ -1,0 +1,30 @@
+.App h1 {
+  font-size: 2.3em;
+}
+.App h2{
+  font-size: 20pt;
+}
+.Home{
+  margin: auto;
+  width: 95%;
+}
+.content-A{
+  border-radius: 35px;
+  border: 2px black solid;
+  text-align: center;
+  margin: 1.25em;
+  padding: 1.5em;
+}
+.footer {
+  height:150px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 3px ridge black;
+}
+.card{
+  margin: 25px auto;
+}
+.cardBtn{
+  display: flex;
+  flex-direction: row;
+}

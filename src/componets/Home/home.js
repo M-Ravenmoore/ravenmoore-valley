@@ -10,13 +10,12 @@ function Home(props){
     <div id="appHome" className="Home">
 
       
-      <section id="first-row">
-        <h2> Welcome to the Ravenmoore Valley Community</h2>
-        <p> Here at Ravenmoore Valley, we bring together artists, crafters, and makers with creative and unique skills. to bring some amazing content and community activitys together. We are a diverse community of friends, family and commonaly alligned individules, that strive to bring the best of humanity forward while relying on the past to bring us together.</p>
+      <section className="content-A" id="first-row">
+        <h2> Welcome to Ravenmoore Valley</h2>
+        <p>  Here at Ravenmoore Valley, we bring together artists, crafters, and makers with creative and unique skills. to bring some amazing content and community activity's together. We are a diverse community of friends, family and commonly aligned individuals, that strive to bring the best of humanity forward while relying on the past to bring us together.</p>
       </section>
 
-      <section id='slides'>
-        {/*  */}
+      <section className="slideshow" id='slides'>
         <Carousel>
           <Carousel.Item>
             <article className="d-block w-100" id='discord'>
@@ -40,7 +39,7 @@ function Home(props){
 
             <Carousel.Caption>
               <h3>Upcomming Ravenmoore community Events</h3>
-              <p>Extra Life Game Day! 7-28 7-29</p>
+              <p>Ravenmoore Halloween EXTRA LIFE Strem DAY! 10-31</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -51,26 +50,52 @@ function Home(props){
             />
 
             <Carousel.Caption>
-              <h3>Roses comming soon</h3>
-              <p>Muninn will be starting to produce and sell roses soon click the button to find out more</p>
+              <h3>Roses Available NOW!</h3>
+              <p>Hot out of the workshop there are fresh roses avaiable on our store check it out!</p>
               <Button href="#Roses">Order</Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </section>
-      <section id="second-row">
+
+      <section className="content-A" id="second-row">
       <h2>The Ravenmoore Family</h2>
-        <p> The Cornerstone of the Ravenmoore Community is The Ravenmoore Clan, Muninn and Huginn Ravenmoore. They are the driving forces behind all you see here, as such they have their own 'workshops' so to say. In Muninn's Workshop you will find his current projects listed with regular updates. while in Huginn's Menagerie you will find the wonderfull array of her creations. </p>
-        <Button href='#workshop' variant='dark'>Muninn's Workshop</Button>
-        <Button href='#menagerie' variant='dark'>Huginn's Menagerie</Button>
+        <p> The Cornerstone of the Ravenmoore Community is The Ravenmoore Clan, Muninn and Huginn Ravenmoore. They are the driving forces behind all you see here, as such they have their own 'workshops' so to say. In Muninn's Workshop you will find his current projects listed with regular updates. while in Huginn's Menagerie you will find the wonderful array of her creations. Also you can check out our Featured Makes in our Artisans directory. </p>
       </section>
 
 
-      <section id="fourth-row">
-        <h2>Ravenmoore Community Artisans</h2>
-        <p> Many of our community members are creators,crafter,makers ect and as such we have created a Ravenmoore Artisans directory with bios and links... Click below to take a look</p>
-        <Button href='#artists' variant='dark'>Artisans directory</Button>
-      </section>
+      <div className="panels" id="panelContainer">
+        <section className="infoPanel-A" id="Workshop">
+          <img 
+            className="panelImg"
+            src="./images/Workshop/Weld spark.JPG"
+            alt="Workshop"
+          />
+          <h4>Muninns Workshop</h4>
+          <p>Custom Crafts and Wonderous Creations are imagined in Muninn's Workshop Come see!</p>
+          <Button href='#artists' variant='dark'>Artisans directory</Button>
+        </section>
+        <section className="infoPanel-A" id="Menagerie">
+          <img 
+            className="panelImg"
+            src="./images/"
+            alt="Menagerie"
+          />
+          <h4>Huginns Menagerie</h4>
+          <p> Come wander in wonder through Huginn's Menagerie of yarn Critter creations</p>
+          <Button href='#artists' variant='dark'>Artisans directory</Button>
+        </section>
+        <section className="infoPanel-A" id="artisans">
+          <img 
+            className="panelImg"
+            src="./images/"
+            alt="Artisans"
+          />
+          <h4>Ravenmoore Community Artisans</h4>
+          <p>Or Take a Tempting peak at the other fine creators of Ravenmoore Valley</p>
+          <Button href='#artists' variant='dark'>Artisans directory</Button>
+        </section>
+      </div>
     </div>  )
 };
 

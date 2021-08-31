@@ -1,8 +1,34 @@
-.Home{
-  margin: 50,5;
-  width: 80%;
+
+.slideshow{
+  height: 25%;
+}
+.panelImg{
+  margin: 5px auto;
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+ }
+
+#discord{
+  text-align: center;
+  background-color:rgba(47, 16, 98, 0.555);
+  border-radius: 45px;
 }
 
-#first-row{
-  background-color:rgba(48,16,98,.8)
+.panels{
+  display: flex;
+}
+
+.infoPanel-A{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1.25em;
+  padding: 1.125em;
+  border-radius: 25px;
+  border: 2px black solid;
+  justify-content: center;
+  align-content: center;
+  width: 30%;
+  height: 400px;
 }

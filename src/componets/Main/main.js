@@ -11,12 +11,10 @@ import Menagerie from '../Menagerie/menagerie';
 import Roses from '../Workshop/Projects/Roses/roses';
 import Arcade from '../Workshop/Projects/Arcade/arcade';
 
-
-
  function Main() {
   
   return(
-    <div id="main" className="Main">
+    <div id="main" className="main">
      <Switch>
        <Route exact path="/">
          <Home />
