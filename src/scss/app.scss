@@ -1,0 +1,64 @@
+
+.App {
+  background: var(--theme-page-background);
+}
+.App h1,h2,h3,h4,h5,h6 {
+  color: var(--theme-page-htext);
+  
+}
+.App p{
+  color: var(--theme-page-text)
+}
+.card{
+  background-color:var(--theme-card-background);
+}
+header{
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.footer{
+  background-color: var(--theme-footer-background);
+  color:var(--theme-nav-text)
+}
+.infoPanel-A, .content-A{
+  background-color:var(--theme-panel-background);
+}
+
+.App h1 {
+  font-size: 2.3em;
+}
+.App h2{
+  font-size: 2.1em;
+}
+.Home{
+  margin: auto;
+  width: 95%;
+}
+.content-A{
+  border-radius: 35px;
+  border: 2px black solid;
+  text-align: center;
+  margin: 1.25em;
+  padding: 1.5em;
+}
+.footer {
+  height:150px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 3px ridge black;
+}
+.card{
+  margin: 25px auto;
+}
+.cardBtn{
+  display: flex;
+  flex-direction: row;
+}
+
+.projects img{
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+}
+.icon{
+  margin: 2%;
+}

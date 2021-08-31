@@ -1,15 +1,14 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { CardColumns,Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 function Projects (props){
 
   return(
     <div id='Projects'>
       <h2>Projects</h2>
-      <CardColumns>
-        <Card>
-          <Card.Img variant="top" src="./images/Workshop/Roses/pre-paint-rose.jpg" />
+        <Card  className="projects">
+          <Card.Img src="./images/Workshop/Roses/pre-paint-rose.jpg" />
           <Card.Body>
             <Card.Title>Hand Made Metal Roses</Card.Title>
             <Card.Text>
@@ -18,7 +17,7 @@ function Projects (props){
           </Card.Body>
           <Button href="#workshop/roses">Roses</Button>
         </Card>
-        <Card>
+        <Card className="projects">
           <Card.Img variant="top" src="./images/Workshop/Arcade/" />
           <Card.Body>
             <Card.Title>Wood Pannel Arcade</Card.Title>
@@ -28,7 +27,6 @@ function Projects (props){
           </Card.Body>
           <Button href="#workshop/arcade">Arcade</Button>
         </Card>
-      </CardColumns>
     </div>
 
   )

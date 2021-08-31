@@ -7,7 +7,7 @@ export default function Header(props) {
     <header>
       <div className="header">
         <h1>Ravenmoore Valley Community</h1>
-        <img src="./images/Logo/Oro-red-black-solid.png" width="150px" alt="Logo"/>
+        <img src="./images/Logo/Oro-prup-black-solid.png" width="150px" alt="Logo"/>
 
       </div>
       <div>
