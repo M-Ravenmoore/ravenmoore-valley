@@ -14,7 +14,7 @@ function Artists(props){
 
       <section class="artist-cards">
         <Card class='artist-card'>
-        <Card.Img variant="left" src="../../public/images/thing.jpg" alt="Headshot" />
+        <Card.Img className='Headshot'  src="./images/Headshots/matt-headshot.png" alt="Headshot" />
           <Card.Body>
           <Card.Title>Muninn Ravenmoore</Card.Title>
           <Card.Subtitle>Various Mediums / Design</Card.Subtitle>
@@ -28,7 +28,7 @@ function Artists(props){
           </Card>
 
         <Card class='artist-card'>
-        <Card.Img variant="left" src="../../public/images/thing.jpg" alt="Headshot" />
+        <Card.Img className='Headshot' variant="left" src="../../public/images/thing.jpg" alt="Headshot" />
           <Card.Body>
           <Card.Title>Huginn Ravenmoore</Card.Title>
           <Card.Subtitle>Yarn Artist</Card.Subtitle>
