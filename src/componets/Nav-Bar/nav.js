@@ -12,11 +12,11 @@ function NavigationBar(props){
   return(
 
     <>
-  <Navbar bg="dark" variant="dark" expand="lg">
+  <Navbar variant="dark" expand="lg">
     <Container>
     <Navbar.Brand href="#/">
       <img
-        src="./images/Logo/Oro-red-black-solid.png"
+        src="./images/Logo/Oro-prup-black-solid.png"
         width="45px"
         margin="5px"
         className="d-inline-block align-top"

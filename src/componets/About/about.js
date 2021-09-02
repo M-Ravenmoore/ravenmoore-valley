@@ -14,10 +14,10 @@ function About(props){
       </article>
 
         <h3>The Community Leaders and Rolls</h3>
-      <section class="about-cards">
+      <section className="founder-cards">
       
-        <Card>
-          <Card.Img src="../../public/images/thing.jpg" alt="Headshot" />
+        <Card className="founders">
+          <Card.Img className='Headshot' src="./images/Headshots/matt-headshot.png" alt="Muninn Ravenmoore Headshot" />
           <Card.Body>
             <Card.Title>Mastermind</Card.Title>
             <Card.Subtitle>Muninn (Matt) Ravenmoore</Card.Subtitle>
@@ -28,8 +28,8 @@ function About(props){
           </div>
         </Card>
 
-        <Card >
-          <Card.Img variant="left" src="../../public/images/thing.jpg" alt="Headshot" />
+        <Card className="founders">
+          <Card.Img className='Headshot' variant="left" src="../../public/images/thing.jpg" alt="Headshot" />
           <Card.Body>
             <Card.Title>Marketing PR and Social Media</Card.Title>
             <Card.Subtitle>Huginn (Rebecca) Ravenmoore</Card.Subtitle>
@@ -39,9 +39,10 @@ function About(props){
            <Button href='#menagerie' variant= "dark">Menagerie</Button>
           </div>
         </Card>
+      
 
-        <Card >
-          <Card.Img variant="left" src="../../public/images/thing.jpg" alt="Headshot" />
+        <Card className="founders">
+          <Card.Img className='Headshot' variant="left" src="../../public/images/thing.jpg" alt="Headshot" />
           <Card.Body>
             <Card.Title>The Ravenmoore Artisans</Card.Title>
             <Card.Subtitle>The Artists, Crafters, ect</Card.Subtitle>
@@ -53,7 +54,7 @@ function About(props){
           </div>
         </Card>
       </section>
-      </div>  
+    </div>  
   )
 }
 
