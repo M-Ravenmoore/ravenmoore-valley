@@ -1,68 +1,25 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { Carousel } from 'react-bootstrap';
-
-import './home.css'
+import HomeSlides from './slideshow';
 
 function Home(props){
 
   return(
     <div id="appHome" className="Home">
 
-      
       <section className="content-A" id="first-row">
         <h2> Welcome to Ravenmoore Valley</h2>
         <p>  Here at Ravenmoore Valley, we bring together artists, crafters, and makers with creative and unique skills. to bring some amazing content and community activity's together. We are a diverse community of friends, family and commonly aligned individuals, that strive to bring the best of humanity forward while relying on the past to bring us together.</p>
       </section>
 
       <section className="slideshow" id='slides'>
-        <Carousel>
-          <Carousel.Item>
-            <article className="d-block w-100" id='discord'>
-              <h3>Join The Discord!</h3>
-              <p>Ravenmoore Valley has a discord to chat and hangout on! get the latest updates and news.</p>
-              <Button href='https://discord.gg/awec8dnm67' variant='dark'>Discord</Button>
-            </article>
-            {/* <Carousel.Caption>
-              <h3>Join The Discord!</h3>
-              <p>Ravenmoore Valley has a discord to chat and hangout on! get the latest updates and news.</p>
-              <Button href='https://discord.gg/awec8dnm67' variant='dark'>Discord</Button>
-            </Carousel.Caption> */}
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-            // extra life banner
-              className="d-block w-100"
-              src="./images/Extra Life Impact Facts.JPG"
-              alt="Extra Life"
-            />
-
-            <Carousel.Caption>
-              <h3>Upcomming Ravenmoore community Events</h3>
-              <p>Ravenmoore Halloween EXTRA LIFE Strem DAY! 10-31</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="./images/Workshop/Roses/red-Rose.JPG"
-              alt="Roses"
-            />
-
-            <Carousel.Caption>
-              <h3>Roses Available NOW!</h3>
-              <p>Hot out of the workshop there are fresh roses avaiable on our store check it out!</p>
-              <Button href="#Roses">Order</Button>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+        <HomeSlides/>
       </section>
 
       <section className="content-A" id="second-row">
       <h2>The Ravenmoore Family</h2>
         <p> The Cornerstone of the Ravenmoore Community is The Ravenmoore Clan, Muninn and Huginn Ravenmoore. They are the driving forces behind all you see here, as such they have their own 'workshops' so to say. In Muninn's Workshop you will find his current projects listed with regular updates. while in Huginn's Menagerie you will find the wonderful array of her creations. Also you can check out our Featured Makes in our Artisans directory. </p>
       </section>
-
 
       <div className="panels" id="panelContainer">
         <section className="infoPanel-A" id="Workshop">

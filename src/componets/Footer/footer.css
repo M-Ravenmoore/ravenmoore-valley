@@ -1,3 +1,7 @@
+.footer{
+  background-color: var(--theme-footer-background);
+  color:var(--theme-nav-text)
+}
 #right-links{
   width: 30%;
   text-align: right;
