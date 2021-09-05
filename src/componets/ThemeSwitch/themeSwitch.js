@@ -3,7 +3,6 @@ import { Button } from 'react-bootstrap';
 
 const ThemeSwitch = () => {
   const [themeState, setThemeState] = useState(false);
-  const [checked, setChecked] = useState(false);
   const handleChange = () => {
     setThemeState(!themeState);
     if (themeState) {

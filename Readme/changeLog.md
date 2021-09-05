@@ -1,8 +1,10 @@
 # Change log
 
-## current Version : 1.5.2
+## current Version : 1.5.4
 
-### LOG 
+### LOG
+
+- 1.5.4 implemented Menagierie pages and slideshows. added img content site wide and cleaned up existing forward facing content. close to mvp.
 
 - 1.5.3 cleaned up documentation added images project wide.
 - 1.5.2 fixed navigation bar collapsing to hamburger bar on icon.
