@@ -9,7 +9,7 @@ function RoseSlides() {
       <Carousel.Item>
         <img
           className="c-block w-75"
-          src="./images/Workshop/Roses/blue-rose.JPG"
+          src="./images/Workshop/Roses/Main/Std-blue-rose.jpg"
           alt="Blue"
         />
         <Carousel.Caption>
@@ -20,7 +20,7 @@ function RoseSlides() {
       <Carousel.Item>
         <img
           className="d-block w-75"
-          src="./images/Workshop/Roses/red-Rose.JPG"
+          src="./images/Workshop/Roses/Main/Std-red-rose-f.jpg"
           alt="Red"
         />
 
@@ -32,7 +32,7 @@ function RoseSlides() {
       <Carousel.Item>
         <img
           className="d-block w-75"
-          src="./images/Workshop/Roses/yellow-red-rose.JPG"
+          src="./images/Workshop/Roses/Custom/Blood Yellow Rose.jpg"
           alt="two Tone"
         />
 

@@ -4,6 +4,7 @@
 
 ### LOG 
 
+- 1.5.3 cleaned up documentation added images project wide.
 - 1.5.2 fixed navigation bar collapsing to hamburger bar on icon.
 - 1.5.1 hard view ports established
 - 1.5 implemented media queries site now can change size.

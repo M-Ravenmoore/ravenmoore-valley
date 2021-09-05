@@ -29,7 +29,7 @@ function About(props){
         </Card>
 
         <Card className="founders">
-          <Card.Img className='Headshot' src="./images/Menagerie/Bunnies/Fluf Buns/Medium-fluf-bun-f.jpg" alt="Headshot" />
+          <Card.Img className='Headshot' src="./images/Headshots/Huginn-Headshot.jpg" alt="Headshot" />
           <Card.Body>
             <Card.Title>Marketing PR and Social Media</Card.Title>
             <Card.Subtitle>Huginn (Rebecca) Ravenmoore</Card.Subtitle>

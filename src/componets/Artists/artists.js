@@ -28,7 +28,7 @@ function Artists(props){
           </Card>
 
         <Card class='artist-card'>
-        <Card.Img className='Headshot' variant="left" src="../../public/images/thing.jpg" alt="Headshot" />
+        <Card.Img className='Headshot' src="./images/Headshots/Huginn-Headshot.jpg" alt="Headshot" />
           <Card.Body>
           <Card.Title>Huginn Ravenmoore</Card.Title>
           <Card.Subtitle>Yarn Artist</Card.Subtitle>
