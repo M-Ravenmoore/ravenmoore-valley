@@ -4,13 +4,32 @@
 
 ## Make Into Tickets on GH
 
-- find better look for light nav bar background and font color
-- link up footer
-- home slideshow fixes
-- artisans,workshop,Menagerie,roses, arcade pages formating to match about page
+- Change Nav color for light mode
+- Make footer items link aproprately
+- Style slideshow from bootsratp (carosell)
+- Get margins for site setup.... home and about look right make rest of site match.
 - create news page content
-- create better store page content
-- create arcade content
+- Add some imgs and better information to Store page
+- change Workshop and Manegerie to new pages with single views instead of views on main ask andre about this??
 - spelling site wide
 - grammer site wide
-
+- add user experience of login/sign up with basic user name/pass email
+  - use Auth0 to setup login/signup
+  - create a user account page
+  - login/signup button that changes to logout on loged in status
+  - user icons??
+- contact page with contact form that sends an email with the message ect....
+- join the community page
+  - application form page
+- prototype a store
+  - sepearte hard branch paralell dev...
+  - KISS (keep it simple stupid)
+  - add shipping info to accounts.
+  - add order history to accounts
+  - create a invintory database with a form for item entry
+    - users that are sellers (ACL teir) get access to this form
+    - admin aproval before listing
+    - for will include item info and seller info
+  - sort functionality
+  - paypal or square payment system
+- newsletter/blog on news page??
