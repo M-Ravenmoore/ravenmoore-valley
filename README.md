@@ -2,7 +2,7 @@
 
 ## Author: Matt(Muninn) Ravenmoore
 
-## Current Version: 1.5.4
+## Current Version: 1.6
 
 - [Change Log](./Readme/changeLog.md)
 
