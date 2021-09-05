@@ -9,40 +9,27 @@ function FlufSlides() {
       <Carousel.Item>
         <img
           className="c-block w-75"
-          src="./images/"
-          alt="Blue"
+          src="./images/Menagerie/Bunnies/Fluf Buns/Sizes.jpg"
+          alt="Size comparison left:small right:large"
         />
         <Carousel.Caption>
-          <h3>Hand Made</h3>
-          <p>Ravenmoore Forever roses are made by hand.</p>
+          <h3>Multi-Sized</h3>
+          <p>The Huginn Flufs come in 2 awesome sizes Medium squish and small Squish</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75"
-          src="./images/"
-          alt="Red"
+          src="./images/Menagerie/Bunnies/Fluf Buns/sm-fluf-qtr-.jpg"
+          alt="quarter viwe of the small fluf bunnie"
         />
 
         <Carousel.Caption>
-          <h3>100% recycled Materials</h3>
-          <p>all made from Recycled steel from Fileing cabnets bound for the dump.</p>
+          <h3>Soon in More colors Too</h3>
+          <p>Ariving soon in 5 colors check our etsy to order.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-75"
-          src="./images/"
-          alt="two Tone"
-        />
-
-        <Carousel.Caption>
-          <h3>Occational Limmited Runs</h3>
-          <p>
-            From time to time look for Special colors or paterns!
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
+    
     </Carousel>
   );
 }
