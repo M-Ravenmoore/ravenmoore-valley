@@ -8,7 +8,7 @@ function Projects (props){
     <div id='Projects'>
       <h2>Projects</h2>
         <Card  className="projects">
-          <Card.Img src="./images/Workshop/Roses/pre-paint-rose.jpg" />
+          <Card.Img src="./images/Workshop/Roses/Main/batch-red-std.jpg" />
           <Card.Body>
             <Card.Title>Hand Made Metal Roses</Card.Title>
             <Card.Text>
@@ -18,7 +18,7 @@ function Projects (props){
           <Button href="#workshop/roses">Roses</Button>
         </Card>
         <Card className="projects">
-          <Card.Img variant="top" src="./images/Workshop/Arcade/" />
+          <Card.Img variant="top" src="./images/Workshop/Arcade/Prototypeing/first-box.jpg" />
           <Card.Body>
             <Card.Title>Wood Pannel Arcade</Card.Title>
             <Card.Text>
