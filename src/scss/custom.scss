@@ -30,4 +30,16 @@
 }
 .navbar{
   background-color: var(--theme-nav-background);
+  flex-wrap: nowrap;
+}
+.navbar .container{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dropdown-item{
+  color:var(--theme-btn-text);
+  text-align: center;
+}
+.dropdown-menu{
+  background-color: var(--theme-nav-background);
 }

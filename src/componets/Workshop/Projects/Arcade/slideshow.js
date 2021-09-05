@@ -10,8 +10,8 @@ function ArcadeSlides() {
       <Carousel.Item>
         <img
           className="c-block w-75"
-          src="./images/Workshop/"
-          alt="One"
+          src="./images/Workshop/Arcade/Prototypeing/wireing-up.jpg"
+          alt="Wires"
         />
         <Carousel.Caption>
           <h3>Rustic Meets Retro</h3>
@@ -21,7 +21,7 @@ function ArcadeSlides() {
       <Carousel.Item>
         <img
           className="d-block w-75"
-          src="./images/Workshop/"
+          src="./images/Workshop/Arcade/Prototypeing/first-test.jpg"
           alt="Two"
         />
 
@@ -33,7 +33,7 @@ function ArcadeSlides() {
       <Carousel.Item>
         <img
           className="d-block w-75"
-          src="./images/Workshop/"
+          src="./images/Workshop/Arcade/V2 mockup/Stain-time.jpg"
           alt="Three"
         />
 

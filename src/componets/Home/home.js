@@ -25,7 +25,7 @@ function Home(props){
         <section className="infoPanel-A" id="Workshop">
           <img 
             className="panelImg"
-            src="./images/Workshop/Weld spark.JPG"
+            src="./images/Workshop/tools-banner.jpg"
             alt="Workshop"
           />
           <h4>Muninns Workshop</h4>
@@ -35,7 +35,7 @@ function Home(props){
         <section className="infoPanel-A" id="Menagerie">
           <img 
             className="panelImg"
-            src="./images/"
+            src="./images/Menagerie/Menagerie-banner.jpg"
             alt="Menagerie"
           />
           <h4>Huginns Menagerie</h4>
@@ -45,7 +45,7 @@ function Home(props){
         <section className="infoPanel-A" id="artisans">
           <img 
             className="panelImg"
-            src="./images/"
+            src="./images/HomeSlides/saw-heart.jpg"
             alt="Artisans"
           />
           <h4>Ravenmoore Community Artisans</h4>

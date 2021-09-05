@@ -3,7 +3,6 @@ import { Button } from 'react-bootstrap';
 
 const ThemeSwitch = () => {
   const [themeState, setThemeState] = useState(false);
-
   const handleChange = () => {
     setThemeState(!themeState);
     if (themeState) {
@@ -21,8 +20,9 @@ const ThemeSwitch = () => {
     if (getTheme === 'light') return  document.body.classList.add('light');
   })
   return (
-    <div>
+    <div className="theme-switch">
       <Button onClick={handleChange}>{themeState ? 'Light' : 'Dark'}</Button>
+      
     </div>
   )
 }

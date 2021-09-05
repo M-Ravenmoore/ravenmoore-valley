@@ -1,8 +1,23 @@
 # Ravenmoore Valley WebApp
 
-## Author: Matt(Muninn) Ravenmoore 
+## Author: Matt(Muninn) Ravenmoore
 
-### Version: 1.1.2
+## Current Version: 1.5.4
+
+- [Change Log](./Readme/changeLog.md)
+
+## Getting Started
+
+clone and down repo from [GitHub REPO](https://github.com/M-Ravenmoore/ravenmoore-valley)
+
+in terminal while in file location run `npm install` to install depencancies.
+
+make a clean branch for your issue and start working!
+
+### Further Reading if working
+
+link to readme stuffs here ... worknotes color schem ect
+Work notes and things to be turned into open work tickets are listed [here](./Readme/WorkNotes.md) untill tickets are made
 
 ## Available Scripts
 
@@ -41,19 +56,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-
 ## Links and Attritions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[devlopment deployment](https://valley-dev.netlify.app)
 
-https://valley-dev.netlify.app devlopment deployment deployed dev branch
+[Production deployment](https://ravenmoore-valley.netlify.app)  deployed main branch
 
-Production deployment presetup: https://ravenmoore-valley.netlify.app  deployed main branch
+[Git hub link](https://github.com/M-Ravenmoore/ravenmoore-valley)
 
-Git hub link: https://github.com/M-Ravenmoore/ravenmoore-valley
+[miro link](https://miro.com/app/board/o9J_l3-FQTU=/)
 
-miro link: https://miro.com/app/board/o9J_l3-FQTU=/
-
-
-dark mode switching referance https://dev.to/cmcwebcode40/simple-react-dark-mode-with-scss-lae
+dark mode switching [referance](https://dev.to/cmcwebcode40/simple-react-dark-mode-with-scss-lae)

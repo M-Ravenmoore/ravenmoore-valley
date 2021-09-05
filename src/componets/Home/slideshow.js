@@ -11,20 +11,20 @@ function HomeSlides() {
       <img
       // extra life banner
         className="d-block w-100"
-        src="./images/HomeSlides/discord."
+        src="./images/HomeSlides/discordbanner.jpg"
         alt="Discord"
       />
       <Carousel.Caption>
         <h3>Join The Discord!</h3>
         <p>Ravenmoore Valley has a discord to chat and hangout on! get the latest updates and news.</p>
-        <Button href='https://discord.gg/awec8dnm67' variant='dark'>Discord</Button>
+        <Button href='https://discord.gg/awec8dnm67' >Discord</Button>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <img
       // extra life banner
         className="d-block w-100"
-        src="./images/Extra Life Impact Facts.JPG"
+        src="./images/HomeSlides/Extra Life Impact Facts.JPG"
         alt="Extra Life"
       />
 
@@ -36,7 +36,7 @@ function HomeSlides() {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="./images/Workshop/Roses/red-Rose.JPG"
+        src="./images/HomeSlides/rose banner.jpg"
         alt="Roses"
       />
 
