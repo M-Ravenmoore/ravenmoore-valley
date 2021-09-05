@@ -9,38 +9,24 @@ function MicroSlides() {
       <Carousel.Item>
         <img
           className="c-block w-75"
-          src="./images"
-          alt="Blue"
+          src="./images/Menagerie/Bunnies/Mini-buns/Mini-bun-front.jpg"
+          alt="Tiny micro bunny in rainbow"
         />
         <Carousel.Caption>
-          <h3>Hand Made</h3>
-          <p>Ravenmoore Forever roses are made by hand.</p>
+          <h3>Pocket sized</h3>
+          <p>Measuring in at 3.5 inches tall these bunnies make perfect stress balls or travel companions</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75"
-          src="./images"
-          alt="Red"
+          src="./images/Menagerie/Bunnies/Mini-buns/mini-bun-side.jpg"
+          alt="Side view of rainbow tiny bunny"
         />
 
         <Carousel.Caption>
-          <h3>100% recycled Materials</h3>
-          <p>all made from Recycled steel from Fileing cabnets bound for the dump.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-75"
-          src="./images"
-          alt="two Tone"
-        />
-
-        <Carousel.Caption>
-          <h3>Occational Limmited Runs</h3>
-          <p>
-            From time to time look for Special colors or paterns!
-          </p>
+          <h3>Comming soon To ETSY</h3>
+          <p>We will be doing a 6 color roulets item of these bunnies... 6 colors and you could get any!</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
