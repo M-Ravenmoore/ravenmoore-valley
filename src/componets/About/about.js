@@ -49,7 +49,7 @@ function About(props){
             <Card.Text> These are the people that have asked for space in our Ravenmoore Valley Market. The Creators, Makers, Tinkers, and more. Usualy small little know artists that need a place to seell their wears. you can find out more by clicking below</Card.Text>
           </Card.Body>
           <div className="cardBtn">
-            <Button href="#" variant="dark">How to Join The Community</Button>
+            <Button href="#" variant="dark">Market Application</Button>
             <Button href='#Artists' variant="dark">Artists</Button>
           </div>
         </Card>

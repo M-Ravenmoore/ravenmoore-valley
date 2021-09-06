@@ -7,6 +7,30 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1 {
+  font-size: 70px;
+}
+h2{
+  font-size: 60px;
+}
+h3{
+  font-size: 48px;
+  text-align: center;
+  margin: 25px auto;
+}
+h4{
+  font-size: 42px;
+}
+h5{
+  font-size: 36px;
+}
+h6{
+  font-size: 30px;
+}
+p{
+  font-size: 16px;
+}
+
 /* add light mode switch to white */
 html{
   background-color: black;
