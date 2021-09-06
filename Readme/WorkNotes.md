@@ -5,11 +5,8 @@
 ### MVP (minimum viable product)
 
 - Change Nav color for light mode
-- Style slideshow from bootsratp (carosell)
-- Get margins for site setup.... home and about look right make rest of site match.
 - create news page content
 - Add some imgs and better information to Store page
-- change Workshop and Manegerie to new pages with single views instead of views on main ask andre about this??
 - spelling site wide
 - grammer site wide
 
@@ -23,7 +20,7 @@
 - contact page with contact form that sends an email with the message ect....
 - join the community page
   - application form page
-- prototype a store
+- prototype a store to replace rooms... make "stalls" in the store with limited space for creators to post content!
   - sepearte hard branch paralell dev...
   - KISS (keep it simple stupid)
   - add shipping info to accounts.

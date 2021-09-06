@@ -7,6 +7,7 @@ function Projects (props){
   return(
     <div id='Projects'>
       <h2>Projects</h2>
+      <section className="project-cards">
         <Card  className="projects">
           <Card.Img src="./images/Workshop/Roses/Main/batch-red-std.jpg" />
           <Card.Body>
@@ -27,6 +28,7 @@ function Projects (props){
           </Card.Body>
           <Button href="#workshop/arcade">Arcade</Button>
         </Card>
+      </section>
     </div>
 
   )

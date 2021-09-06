@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from 'react-bootstrap';
 
 const ThemeSwitch = () => {
   const [themeState, setThemeState] = useState(false);
