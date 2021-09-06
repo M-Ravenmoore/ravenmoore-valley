@@ -18,7 +18,7 @@ function Bunnies (props){
           <Button href="#menagerie/bunnies/flufs">Fluf Buns</Button>
         </Card>
         <Card className="projects">
-          <Card.Img variant="top" src="./images/Menagerie/Bunnies/Mini-buns/Mini-bun-front.jpg" />
+          <Card.Img src="./images/Menagerie/Bunnies/Mini-buns/Mini-bun-front.jpg" />
           <Card.Body>
             <Card.Title>Micro Buns</Card.Title>
             <Card.Text>

@@ -1,7 +1,11 @@
 .footer{
+  height:150px;
+  display: flex;
+  justify-content: space-evenly;
   background-color: var(--theme-footer-background);
   color:var(--theme-nav-text)
 }
+
 #right-links{
   width: 30%;
   text-align: right;
@@ -22,4 +26,7 @@
   width: 30%;
   text-align: left;
   margin:  auto 0px;
+}
+footer a{
+  color: white;
 }

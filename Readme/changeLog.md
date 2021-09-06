@@ -1,9 +1,11 @@
 # Change log
 
-## current Version : 1.6
+## current Version : 1.6.2
 
 ### LOG
 
+- 1.6.2 styleing fixes site wide includeing slideshow about and aritisans page tweeks. footer links now work.
+- 1.6.1 small changes worklog and worknotes
 - 1.6 Full content up with imgs needs a tidy but it is all there!
 
 - 1.5.4 implemented Menagierie pages and slideshows. added img content site wide and cleaned up existing forward facing content. close to mvp.
