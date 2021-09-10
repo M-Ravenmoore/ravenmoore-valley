@@ -2,10 +2,9 @@
 
 ## quick fixes
 
-## Make Into Tickets on GH
+### MVP (minimum viable product)
 
 - Change Nav color for light mode
-- Make footer items link aproprately
 - Style slideshow from bootsratp (carosell)
 - Get margins for site setup.... home and about look right make rest of site match.
 - create news page content
@@ -13,6 +12,9 @@
 - change Workshop and Manegerie to new pages with single views instead of views on main ask andre about this??
 - spelling site wide
 - grammer site wide
+
+## Make Into Tickets on GH
+
 - add user experience of login/sign up with basic user name/pass email
   - use Auth0 to setup login/signup
   - create a user account page

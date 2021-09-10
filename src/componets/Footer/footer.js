@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faDiscord} from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-brands-svg-icons';
 
-import "./footer.css"
+import "./footer.scss"
 
 
 
@@ -13,29 +14,26 @@ export default function Footer() {
     <footer className="footer">
       <section id="left-links">
         <ul>
-          <li>Contact</li>
-          <li href="#about">About Us</li>
+          <li><Link to="contact">Contact</Link></li>
+          <li><Link to="about">About Us</Link></li>
           <li>Legal Stuff</li>
         </ul>
       </section>
       <section id="icons" >
         <div className="icon">
-          <FontAwesomeIcon icon={faFacebook} size="2x"/>
+         <a href="https://www.facebook.com/RavenmooreValley"> <FontAwesomeIcon icon={faFacebook} size="2x"/></a>
         </div>
         <div className="icon">
-          <FontAwesomeIcon icon={faInstagram} size="2x"/>
+          <a href="https://www.instagram.com/dusklorne/"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
         </div>
         <div className="icon">
-         <FontAwesomeIcon icon={faLinkedin} size="2x"/>
-        </div>
-        <div className="icon">
-          <FontAwesomeIcon icon={faDiscord} size="2x"/>
+          <a href="https://discord.gg/awec8dnm67"><FontAwesomeIcon icon={faDiscord} size="2x"/></a>
         </div>
       </section>
       <section id="right-links">
         <ul>
-          <li>Join the Community</li>
-          <li>FAQ</li>
+          <li><Link to="creator">Market Application</Link></li>
+          <li><Link to="faq">FAQ</Link></li>
         </ul>
       </section>
     </footer>
