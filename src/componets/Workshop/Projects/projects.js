@@ -18,7 +18,7 @@ function Projects (props){
           <Button href="#workshop/roses">Roses</Button>
         </Card>
         <Card className="projects">
-          <Card.Img variant="top" src="./images/Workshop/Arcade/Prototypeing/first-box.jpg" />
+          <Card.Img src="./images/Workshop/Arcade/Prototypeing/first-box.jpg" />
           <Card.Body>
             <Card.Title>Wood Pannel Arcade</Card.Title>
             <Card.Text>

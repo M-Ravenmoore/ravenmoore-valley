@@ -21,21 +21,37 @@
     color:var(--theme-btn-text);
   }
 }
-
+.cap-box{
+  background-color: var(--theme-btn-background);
+}
 // Small devices (landscape phones, 400px and up)
 @media (min-width: 340px) {
   .App h1 {
-    font-size: 2.6rem;
+    font-size:2.3em;
   }
   .App h2{
-    font-size: 2.2em;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 15px auto;
   }
   .App h3{
-    font-size: 1.9em;
+    font-size: 1.7em;
     text-align: center;
-    margin: 25px auto;
+    margin: 5px auto;
   }
-  .Home{
+  .App h4{
+    font-size: 1.6em;
+  }
+  .App h5{
+    font-size: 1.5em;
+  }
+  .App h6{
+    font-size: 1.4em;
+  }
+  .App p{
+    font-size: 1.1em;
+  }
+  .Main{
     margin: auto;
     width: 95%;
   }
@@ -46,12 +62,6 @@
     margin: 1.25em;
     padding: 1.5em;
   }
-  .footer {
-    height:150px;
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 3px ridge black;
-  }
   .cardBtn{
     display: flex;
     flex-direction: row;
@@ -61,20 +71,34 @@
     margin: auto;
     padding: 5px;
   }
+
+  .project-cards{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .projects{
+    width:75%;
+  }
+  .projects{
+
+  }
   .icon{
     margin: 2%;
   }
   .Headshot{
     margin: 10px auto;
   }
-  .founder-cards{
-  display: flex;
-  flex-wrap:wrap;
+  .artist-card{
+    display: flex;
+    flex-wrap:wrap;
+    }
+  .artisans{
+    width:75%;
   }
   .founder-cards{
     display: flex;
     flex-wrap:wrap;
-    }
+  }
   .founders{
     width:75%;
   }
@@ -119,11 +143,19 @@
   }
   .founder-cards{
     display: flex;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     margin: 10px auto;
     }
   .founders{
-    width:30%;
+    width: 45%;
+  }
+  .artist-cards{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 10px auto;
+    }
+  .artisans{
+    width: 45%;
   }
   .panels{
     display: flex;
@@ -139,6 +171,9 @@
     width: 25%;
   }
   .founders{
-    width:22.5%;
+    width:30%;
+  }
+  .artisans{
+    width: 30%;
   }
 }

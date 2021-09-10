@@ -15,9 +15,10 @@ function HomeSlides() {
         alt="Discord"
       />
       <Carousel.Caption>
-        <h3>Join The Discord!</h3>
-        <p>Ravenmoore Valley has a discord to chat and hangout on! get the latest updates and news.</p>
-        <Button href='https://discord.gg/awec8dnm67' >Discord</Button>
+        <div className="cap-box">
+          <h6>Chat with us on Discord</h6>
+          <Button href='https://discord.gg/awec8dnm67' >Discord</Button>
+        </div>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -29,8 +30,10 @@ function HomeSlides() {
       />
 
       <Carousel.Caption>
-        <h3>Upcomming Ravenmoore community Events</h3>
-        <p>Ravenmoore Halloween EXTRA LIFE Strem DAY! 10-31</p>
+      <div className="cap-box">
+        <h6>Upcomming Events</h6>
+        <p>Halloween EXTRA-LIFE DAY!</p>
+      </div>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -41,9 +44,10 @@ function HomeSlides() {
       />
 
       <Carousel.Caption>
-        <h3>Roses Available NOW!</h3>
-        <p>Hot out of the workshop there are fresh roses avaiable on our store check it out!</p>
-        <Button href="#Roses">Order</Button>
+      <div className="cap-box">
+        <h6>Fresh Roses Available</h6>
+        <Button href="#Roses">Order Now!</Button>
+      </div>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
