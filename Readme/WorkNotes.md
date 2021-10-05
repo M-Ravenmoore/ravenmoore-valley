@@ -4,9 +4,15 @@
 
 ### MVP (minimum viable product)
 
-- Change Nav color for light mode
 - create news page content
 - Add some imgs and better information to Store page
+
+- fix slideshows site wide for 720 or bigger needs to be made smaller and over all more details about the slides make more like a split panner with info box and img!
+- commision email form modal/popup
+- market app page with form
+- link workshop/menagerie btns on about to etsy colleciton temp.
+
+
 - spelling site wide
 - grammer site wide
 

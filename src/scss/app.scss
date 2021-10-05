@@ -26,31 +26,6 @@
 }
 // Small devices (landscape phones, 400px and up)
 @media (min-width: 340px) {
-  .App h1 {
-    font-size:2.3em;
-  }
-  .App h2{
-    font-size: 1.8em;
-    text-align: center;
-    margin: 15px auto;
-  }
-  .App h3{
-    font-size: 1.7em;
-    text-align: center;
-    margin: 5px auto;
-  }
-  .App h4{
-    font-size: 1.6em;
-  }
-  .App h5{
-    font-size: 1.5em;
-  }
-  .App h6{
-    font-size: 1.4em;
-  }
-  .App p{
-    font-size: 1.1em;
-  }
   .Main{
     margin: auto;
     width: 95%;
@@ -104,13 +79,12 @@
     border-radius: 40%;
    }
 
-  .Navigation{
+  .nav-bar{
     position: sticky;
     top: 0;
     display: flex;
     justify-content: space-between;
-    background-color: var(--theme-nav-background);
-    
+    background-color: var(--theme-nav-background); 
   }
   .nav-container{
     display: flex;
@@ -124,17 +98,26 @@
     align-items:flex-end;
     text-align: right; 
   }
+  #user-nav{
+    justify-content: right;
+  }
   .user-auto{
     align-items: flex-end;
     text-align: right;
+  }
+
+  .user-menu, .site-menu{
+    width: 46%;
+  }
+  .theme-switch{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 580px) {
 
-  .nav-logo{
-    visibility:visible;
-  }
   .founders,.artisans{
     width: 45%;
   }
@@ -153,6 +136,7 @@
   .infoPanel-A{
     width: 30%;
   }
+
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
@@ -165,4 +149,5 @@
   .projects{
     width:45%;
   }
+
 }

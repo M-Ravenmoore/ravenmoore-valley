@@ -1,9 +1,13 @@
 # Change log
 
-## current Version : 1.6.2
+## current Version : 1.6.3
 
 ### LOG
 
+- 1.6.3 lots of changes some include
+  - Remove creative spaces temp. to rebuild in to a store framework and bring back in a later version
+  - addjust max width to avoid weirdness on xl and xxl moniters
+  - change logo out on D/l for sun moon imgs
 - 1.6.2 styleing fixes site wide includeing slideshow about and aritisans page tweeks. footer links now work.
 - 1.6.1 small changes worklog and worknotes
 - 1.6 Full content up with imgs needs a tidy but it is all there!

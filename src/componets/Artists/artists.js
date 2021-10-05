@@ -22,8 +22,10 @@ function Artists(props){
             <Card.Text> Specializing in metal work, Muninn offers commisonable services that include: Metal craft, Wood Craft, Leather Craft, Resin, Finishing work and more...</Card.Text>
           </Card.Body>
           <div className="cardBtn">
-            <Button href="#" variant="dark">Portfolio</Button>
-            <Button href="#" variant="dark">Commission ME</Button>
+            <Button href="https://ravenmoore-profile.netlify.app" variant="dark">My Portfolio</Button>
+
+            {/* this should lead to an contact form pre addressed to artists email */}
+            <Button href="#" variant="dark">Commission Me</Button>
           </div>
         </Card>
 
@@ -34,9 +36,8 @@ function Artists(props){
             <Card.Subtitle>Yarn Artist</Card.Subtitle>
             <Card.Text> From small to large Huginn make all kinds of kritters and creations from yarns... you can commision her currently for Dragons, and other specialty Yarn creations. </Card.Text>
           </Card.Body>
-          <div className="cardBtn">            
-            <Button href="#" variant= "dark">Portfolio</Button>
-            <Button href="#" variant= "dark">Commission ME</Button>
+          <div className="cardBtn"> 
+            <Button href="#" variant= "dark">Commission Me</Button>
           </div>
         </Card>
       </section>
