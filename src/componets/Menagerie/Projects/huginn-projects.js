@@ -7,7 +7,7 @@ function HuginnProjects (props){
   return(
     <div id='Projects'>
       <h2>Projects</h2>
-
+      <section className="project-cards">
         <Card  className="projects">
           <Card.Img src="./images/Menagerie/Bunnies/Fluf Buns/Sizes.jpg" />
           <Card.Body>
@@ -28,6 +28,7 @@ function HuginnProjects (props){
           </Card.Body>
           <Button href="#menagerie/dragons">Dragons</Button>
         </Card>
+      </section>
     </div>
 
   )

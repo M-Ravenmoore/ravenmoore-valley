@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-const ThemeSwitch = () => {
+function ThemeSwitch(props){
   const [themeState, setThemeState] = useState(false);
   const handleChange = () => {
     setThemeState(!themeState);
@@ -18,12 +18,21 @@ const ThemeSwitch = () => {
     const getTheme = localStorage.getItem('Theme');
     if (getTheme === 'light') return  document.body.classList.add('light');
   })
-  return (
-    <div className="theme-switch">
-      <Button onClick={handleChange}>{themeState ? 'Light' : 'Dark'}</Button>
-      
-    </div>
+
+  return(
+  <div className="theme-switch" onClick={handleChange}>
+    <img
+      src={themeState ? "./images/icons/lightmode_sun_nightmode.png" : "./images/icons/nightmode_moon_daymode.png"}
+      width="45px"
+      margin="5px"
+      className="d-inline-block align-top"
+      alt="Ravenmoore logo"
+    />
+  </div>
   )
 }
 
 export default ThemeSwitch;
+
+
+  

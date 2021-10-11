@@ -4,16 +4,18 @@
 
 ### MVP (minimum viable product)
 
-- Change Nav color for light mode
-- Style slideshow from bootsratp (carosell)
-- Get margins for site setup.... home and about look right make rest of site match.
+- commision email form modal/popup
+
+- link workshop/menagerie btns on about to etsy colleciton temp.
+- fix slideshows site wide for 720 or bigger needs to be made smaller and over all more details about the slides make more like a split panner with info box and img!
+- add detail content to store page
 - create news page content
-- Add some imgs and better information to Store page
-- change Workshop and Manegerie to new pages with single views instead of views on main ask andre about this??
+
+- Create new home slide imgs with uniform size
 - spelling site wide
 - grammer site wide
 
-## Make Into Tickets on GH
+## Next steps
 
 - add user experience of login/sign up with basic user name/pass email
   - use Auth0 to setup login/signup
@@ -23,7 +25,7 @@
 - contact page with contact form that sends an email with the message ect....
 - join the community page
   - application form page
-- prototype a store
+- prototype a store to replace rooms... make "stalls" in the store with limited space for creators to post content!
   - sepearte hard branch paralell dev...
   - KISS (keep it simple stupid)
   - add shipping info to accounts.
@@ -35,3 +37,4 @@
   - sort functionality
   - paypal or square payment system
 - newsletter/blog on news page??
+- market app page with form

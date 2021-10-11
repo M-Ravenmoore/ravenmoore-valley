@@ -7,6 +7,7 @@ function Bunnies (props){
   return(
     <div id='Projects'>
       <h2>Projects</h2>
+      <section className="project-cards">
         <Card  className="projects">
           <Card.Img src="./images/Menagerie/Bunnies/Fluf Buns/md-fluf-front.jpg" />
           <Card.Body>
@@ -27,6 +28,7 @@ function Bunnies (props){
           </Card.Body>
           <Button href="#menagerie/bunnies/micros">Micro Buns</Button>
         </Card>
+        </section>
     </div>
 
   )

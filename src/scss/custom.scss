@@ -30,11 +30,10 @@
   justify-content: center;
 }
 .navbar{
-  background-color: var(--theme-nav-background);
+  // background-color: var(--theme-nav-background);
   flex-wrap: nowrap;
 }
 .navbar .container{
-  justify-content: center;
   flex-wrap: wrap;
 }
 .dropdown-item{
@@ -45,11 +44,12 @@
   background-color: var(--theme-nav-background);
 }
 .carousel{
-  width: 85%;
+  width: 80%;
   margin: 10px auto;
   border: black 2px solid;
 }
-// .carousel-caption{
-//   height: 20%;
-//   background-color: var(--theme-nav-background);
-// }
+.carousel-caption{
+  height: 20%;
+  background-color: var(--theme-nav-background);
+  color: var(--theme-nav-text)
+}
