@@ -21,36 +21,11 @@
     color:var(--theme-btn-text);
   }
 }
-.cap-box{
-  background-color: var(--theme-btn-background);
-}
+// .cap-box{
+//   background-color: var(--theme-btn-background);
+// }
 // Small devices (landscape phones, 400px and up)
 @media (min-width: 340px) {
-  .App h1 {
-    font-size:2.3em;
-  }
-  .App h2{
-    font-size: 1.8em;
-    text-align: center;
-    margin: 15px auto;
-  }
-  .App h3{
-    font-size: 1.7em;
-    text-align: center;
-    margin: 5px auto;
-  }
-  .App h4{
-    font-size: 1.6em;
-  }
-  .App h5{
-    font-size: 1.5em;
-  }
-  .App h6{
-    font-size: 1.4em;
-  }
-  .App p{
-    font-size: 1.1em;
-  }
   .Main{
     margin: auto;
     width: 95%;
@@ -66,40 +41,18 @@
     display: flex;
     flex-direction: row;
   }
-  .projects img{
-    width: 50%;
-    margin: auto;
+  .Headshot,.projects img{
+    margin: 10px auto;
     padding: 5px;
-  }
-
-  .project-cards{
-    display: flex;
-    flex-wrap:wrap;
-  }
-  .projects{
-    width:75%;
-  }
-  .projects{
-
   }
   .icon{
     margin: 2%;
   }
-  .Headshot{
-    margin: 10px auto;
-  }
-  .artist-card{
+  .artist-card,.founder-cards,.project-cards{
     display: flex;
     flex-wrap:wrap;
     }
-  .artisans{
-    width:75%;
-  }
-  .founder-cards{
-    display: flex;
-    flex-wrap:wrap;
-  }
-  .founders{
+  .artisans,.founders,.projects{
     width:75%;
   }
   .panels{
@@ -125,37 +78,57 @@
     border:4px var(--theme-page-background) solid;
     border-radius: 40%;
    }
-  .nav-logo{
-    visibility: hidden;
+
+  .nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--theme-nav-background); 
   }
   .nav-container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+
+  }
+  .user-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:right;
+    align-items:flex-end;
+    text-align: right; 
+  }
+  #user-nav{
+    justify-content: right;
+  }
+  .user-auto{
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .user-menu, .site-menu{
+    width: 46%;
+  }
+  .theme-switch{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 580px) {
 
-  .nav-logo{
-    visibility:visible;
+  .founders,.artisans{
+    width: 45%;
   }
-  .founder-cards{
+  .artist-cards,.project-cards,.founder-cards{
     display: flex;
     flex-wrap:wrap;
     margin: 10px auto;
     }
-  .founders{
-    width: 45%;
-  }
-  .artist-cards{
-    display: flex;
-    flex-wrap:wrap;
-    margin: 10px auto;
-    }
-  .artisans{
-    width: 45%;
+  .projects{
+    width:65%;
   }
   .panels{
     display: flex;
@@ -164,16 +137,18 @@
   .infoPanel-A{
     width: 30%;
   }
+
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
   .infoPanel-A{
     width: 25%;
   }
-  .founders{
+  .founders,.artisans{
     width:30%;
   }
-  .artisans{
-    width: 30%;
+  .projects{
+    width:45%;
   }
+
 }
