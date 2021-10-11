@@ -21,9 +21,9 @@
     color:var(--theme-btn-text);
   }
 }
-.cap-box{
-  background-color: var(--theme-btn-background);
-}
+// .cap-box{
+//   background-color: var(--theme-btn-background);
+// }
 // Small devices (landscape phones, 400px and up)
 @media (min-width: 340px) {
   .Main{
@@ -82,6 +82,7 @@
   .nav-bar{
     position: sticky;
     top: 0;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     background-color: var(--theme-nav-background); 
