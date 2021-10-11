@@ -1,21 +1,21 @@
 import React from 'react';
 import {Route,Switch} from 'react-router-dom';
-import Home from '../Home/home';
-import About from '../About/about';
-import Artists from '../Artists/artists';
-import News from '../News/news';
-import Store from '../Store/store-temp';
+import Home from '../Pages/Home/home';
+import About from '../Pages/About/about';
+import Artists from '../Pages/Artists/artists';
+import News from '../Pages/News/news';
+import Store from '../Pages/Store/store-temp';
 
 
-import Workshop from  '../Workshop/workshop';
-import Menagerie from '../Menagerie/menagerie';
+import Workshop from  '../Pages/Workshop/workshop';
+import Menagerie from '../Pages/Menagerie/menagerie';
 
-import Bunnies from '../Menagerie/Projects/Bunnies/bunnies';
-import FlufBun from '../Menagerie/Projects/Bunnies/flufs/flufs';
-import MicroBun from '../Menagerie/Projects/Bunnies/micros/micros';
-import Dragons from '../Menagerie/Projects/Dragons/dragons';
-import Roses from '../Workshop/Projects/Roses/roses';
-import Arcade from '../Workshop/Projects/Arcade/arcade';
+import Bunnies from '../Pages/Menagerie/Projects/Bunnies/bunnies';
+import FlufBun from '../Pages/Menagerie/Projects/Bunnies/flufs/flufs';
+import MicroBun from '../Pages/Menagerie/Projects/Bunnies/micros/micros';
+import Dragons from '../Pages/Menagerie/Projects/Dragons/dragons';
+import Roses from '../Pages/Workshop/Projects/Roses/roses';
+import Arcade from '../Pages/Workshop/Projects/Arcade/arcade';
 
 
  function Main() {

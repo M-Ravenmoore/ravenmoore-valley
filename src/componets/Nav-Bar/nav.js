@@ -3,7 +3,9 @@ import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import ThemeSwitch from "./theme-switch";
-
+import LoginButton from "../Auth/login-btn/login-btn";
+import LogoutButton from "../Auth/logout-btn/logout-btn";
+import Profile from "../Auth/user-profile/profile";
 
 function NavigationBar(props){
 
@@ -31,11 +33,10 @@ function NavigationBar(props){
         <Navbar.Toggle aria-controls="user-nav" />
         <Navbar.Collapse id="user-nav">
           <Nav className="user-auto">
-            {/* give icon of key and lock for login or log out??? */}
-            <Nav.Link href="#">Login/signup</Nav.Link>
-            {/*if conditional show only on loged in ==true once login is setup */}
-            <Nav.Link href="#">Profile</Nav.Link>
-            <Nav.Link href="#">Logout</Nav.Link>
+            <LoginButton />
+            {/* if logedin ==true show menu if logedin !=true then show login button */}
+            < Profile />
+            <LogoutButton />
           </Nav>
         </Navbar.Collapse>    
       </Container>

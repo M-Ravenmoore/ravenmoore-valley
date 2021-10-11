@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import { Auth0Provider } from '@auth0/auth0-react';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "./scss/custom.scss"
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import "./scss/custom.scss"
 
 <link
   rel="stylesheet"
@@ -14,11 +15,16 @@ import "./scss/custom.scss"
   crossorigin="anonymous"
 />
 
-
 ReactDOM.render(
+  <Auth0Provider
+    domain= "ravenmoore-valley.us.auth0.com"
+    clientId="yx1rXE3GGh9UfDeOj01Xi8fZ7LsPmk4G"
+    redirectUri={window.location.origin}
+  >
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </Auth0Provider>,
   document.getElementById('root')
 );
 

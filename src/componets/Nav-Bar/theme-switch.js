@@ -26,7 +26,7 @@ function ThemeSwitch(props){
       width="45px"
       margin="5px"
       className="d-inline-block align-top"
-      alt="Ravenmoore logo"
+      alt="Light mode, Dark mode theme switch"
     />
   </div>
   )
