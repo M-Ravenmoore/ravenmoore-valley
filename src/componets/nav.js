@@ -3,9 +3,7 @@ import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import ThemeSwitch from "./theme-switch";
-import LoginButton from "../Auth/login-btn/login-btn";
-import LogoutButton from "../Auth/logout-btn/logout-btn";
-import Profile from "../Auth/user-profile/profile";
+import AuthButton from "./Auth/auth-btn";
 
 function NavigationBar(props){
 
@@ -18,10 +16,10 @@ function NavigationBar(props){
         <Navbar.Collapse id="raven-nav">
           <Nav className="me-auto">
             <Nav.Link href="#/">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#artists">Artisans</Nav.Link>
-            <Nav.Link href="#news">News</Nav.Link>
-            <Nav.Link href="#store">Store</Nav.Link>
+            <Nav.Link href="#/about">About</Nav.Link>
+            <Nav.Link href="#/artists">Artisans</Nav.Link>
+            <Nav.Link href="#/news">News</Nav.Link>
+            <Nav.Link href="#/store">Store</Nav.Link>
           </Nav>
         </Navbar.Collapse>    
       </Container>
@@ -33,10 +31,9 @@ function NavigationBar(props){
         <Navbar.Toggle aria-controls="user-nav" />
         <Navbar.Collapse id="user-nav">
           <Nav className="user-auto">
-            <LoginButton />
+            <AuthButton />
             {/* if logedin ==true show menu if logedin !=true then show login button */}
-            < Profile />
-            <LogoutButton />
+            <Nav.Link href='#/profile'>Profile</Nav.Link>
           </Nav>
         </Navbar.Collapse>    
       </Container>

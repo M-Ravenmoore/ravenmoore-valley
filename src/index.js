@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { Auth0Provider } from '@auth0/auth0-react';
+import Auth0ProveiderWithHistory from './componets/Auth/auth0-provider-with-history';
+import { BrowserRouter as Router } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,15 +17,13 @@ import "./scss/custom.scss"
 />
 
 ReactDOM.render(
-  <Auth0Provider
-    domain= "ravenmoore-valley.us.auth0.com"
-    clientId="yx1rXE3GGh9UfDeOj01Xi8fZ7LsPmk4G"
-    redirectUri={window.location.origin}
-  >
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-  </Auth0Provider>,
+  <Router>
+    <React.StrictMode>
+      <Auth0ProveiderWithHistory>
+        <App />
+      </Auth0ProveiderWithHistory>
+    </React.StrictMode>
+  </Router>,
   document.getElementById('root')
 );
 

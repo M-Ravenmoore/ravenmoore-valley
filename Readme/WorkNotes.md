@@ -8,6 +8,7 @@
   - login
   - logout
   - user profile
+
   
 - add user experience of login/sign up with basic user name/pass email
   - use Auth0 to setup login/signup
