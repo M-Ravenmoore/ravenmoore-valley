@@ -1,8 +1,15 @@
 # Change log
 
-## current Version : 1.6.3
+## current Version : 2.1.0
 
 ### LOG
+
+- 2.1.0 HUGE UPDATE
+  - users can now create a user account
+  - users can now see user profiles if loged in
+  - users can now hit the ravenmoore-valley-server with api test buttons.
+  - most graphics are cleaned up.
+  - content stable untill next major update.
 
 - 1.6.3 lots of changes some include
   - Remove creative spaces temp. to rebuild in to a store framework and bring back in a later version

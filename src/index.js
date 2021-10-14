@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import Auth0ProveiderWithHistory from './componets/Auth/auth0-provider-with-history';
+import { BrowserRouter as Router } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "./scss/custom.scss"
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import "./scss/custom.scss"
 
 <link
   rel="stylesheet"
@@ -14,11 +16,14 @@ import "./scss/custom.scss"
   crossorigin="anonymous"
 />
 
-
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <React.StrictMode>
+      <Auth0ProveiderWithHistory>
+        <App />
+      </Auth0ProveiderWithHistory>
+    </React.StrictMode>
+  </Router>,
   document.getElementById('root')
 );
 
