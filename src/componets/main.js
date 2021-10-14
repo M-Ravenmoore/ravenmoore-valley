@@ -22,7 +22,7 @@ import ProtectedRoute from './Auth/protected-route';
         <Route exact path="/news" component={News} />
         <Route exact path="/store" component={Store} />
         <ProtectedRoute exact path="/profile" component={Profile} />
-        <ProtectedRoute exact path="/API" component={ExternalApi} />
+        <Route exact path="/API" component={ExternalApi} />
       </Switch>
     </div>
   );

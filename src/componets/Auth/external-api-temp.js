@@ -9,11 +9,12 @@ const ExternalApi = () => {
 
   const callApi = async () => {
     try {
-      const response = await fetch(`${serverUrl}/api/messages/public-message`);
+      const response = await fetch(`${serverUrl}/`);
+      console.log(response)
 
       const responseData = await response.json();
-
-      setMessage(responseData.message);
+      console.log(responseData)
+      setMessage(responseData.title);
     } catch (error) {
       setMessage(error.message);
     }
@@ -22,9 +23,9 @@ const ExternalApi = () => {
   const callSecureApi = async () => {
     try {
       const token = await getAccessTokenSilently();
-
+      console.log(token)
       const response = await fetch(
-        `${serverUrl}/api/messages/protected-message`,
+        `${serverUrl}/user`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -33,8 +34,8 @@ const ExternalApi = () => {
       );
 
       const responseData = await response.json();
-
-      setMessage(responseData.message);
+        console.log(responseData)
+      setMessage(responseData.title);
     } catch (error) {
       setMessage(error.message);
     }
