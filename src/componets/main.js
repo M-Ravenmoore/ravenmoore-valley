@@ -1,11 +1,14 @@
 import React from 'react';
 import {Route,Switch} from 'react-router-dom';
-import Home from './Pages/home';
-import About from './Pages/about';
-import Artists from './Pages/artists';
-import News from './Pages/news';
-import Store from './Pages/store-temp';
-import Profile from './Auth/profile'
+import Home from '../Pages/home';
+import About from '../Pages/about';
+import Artists from '../Pages/artists';
+import News from '../Pages/news';
+import Store from '../Pages/store-temp';
+import Profile from './Auth/profile';
+import ExternalApi from './Auth/external-api-temp';
+
+import ProtectedRoute from './Auth/protected-route';
 
 
  function Main() {
@@ -18,7 +21,8 @@ import Profile from './Auth/profile'
         <Route exact path="/artists" component={Artists} />
         <Route exact path="/news" component={News} />
         <Route exact path="/store" component={Store} />
-        <Route exact paht="/profile" component={Profile} />
+        <ProtectedRoute exact path="/profile" component={Profile} />
+        <ProtectedRoute exact path="/API" component={ExternalApi} />
       </Switch>
     </div>
   );

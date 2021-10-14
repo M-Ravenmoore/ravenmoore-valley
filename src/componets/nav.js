@@ -6,7 +6,6 @@ import ThemeSwitch from "./theme-switch";
 import AuthButton from "./Auth/auth-btn";
 
 function NavigationBar(props){
-
   return(
     <>
     <div className="nav-bar">
@@ -19,7 +18,7 @@ function NavigationBar(props){
             <Nav.Link href="#/about">About</Nav.Link>
             <Nav.Link href="#/artists">Artisans</Nav.Link>
             <Nav.Link href="#/news">News</Nav.Link>
-            <Nav.Link href="#/store">Store</Nav.Link>
+            <Nav.Link href="https://www.etsy.com/shop/RavenmooreValleyShop">Etsy Shop</Nav.Link>
           </Nav>
         </Navbar.Collapse>    
       </Container>
@@ -34,6 +33,8 @@ function NavigationBar(props){
             <AuthButton />
             {/* if logedin ==true show menu if logedin !=true then show login button */}
             <Nav.Link href='#/profile'>Profile</Nav.Link>
+            <Nav.Link href='#/api'>API</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>    
       </Container>
