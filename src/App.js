@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter} from 'react-router-dom';
-import Header from './componets/Header/header';
-import Main from './componets/Main/main'
-import NavBar from './componets/Nav-Bar/nav'
-import Footer from './componets/Footer/footer';
+import Header from './componets/header';
+import Main from './componets/main'
+import NavBar from './componets/nav'
+import Footer from './componets/footer';
 import './reset.css';
 import './scss/theme.scss';
 import './scss/app.scss';
