@@ -5,16 +5,6 @@
 - Pages to make
   - newsletter/blog on news page??
   - FAQ page
-  - login
-  - logout
-  - user profile
-
-  
-- add user experience of login/sign up with basic user name/pass email
-  - use Auth0 to setup login/signup
-  - create a user account page
-  - login/signup button that changes to logout on loged in status
-  - user icons??
 
 ## Future features
 

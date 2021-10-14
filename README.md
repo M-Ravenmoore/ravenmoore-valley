@@ -2,7 +2,7 @@
 
 ## Author: Matt(Muninn) Ravenmoore
 
-## Current Version: 1.6.3
+## Current Version: 2.1.0
 
 - [Change Log](./Readme/changeLog.md)
 
@@ -26,7 +26,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [localhost](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
@@ -58,14 +58,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Links and Attritions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-[devlopment deployment](https://valley-dev.netlify.app)
-
-[Production deployment](https://ravenmoore-valley.netlify.app)  deployed main branch
-
-[Git hub link](https://github.com/M-Ravenmoore/ravenmoore-valley)
-
-[miro link](https://miro.com/app/board/o9J_l3-FQTU=/)
-
-dark mode switching [referance](https://dev.to/cmcwebcode40/simple-react-dark-mode-with-scss-lae)
+- [devlopment deployment](https://valley-dev.netlify.app)
+- [Production deployment](https://ravenmoore-valley.netlify.app)  deployed main branch
+- [Git hub link](https://github.com/M-Ravenmoore/ravenmoore-valley)
+- [miro link](https://miro.com/app/board/o9J_l3-FQTU=/)
+- dark mode switching [referance](https://dev.to/cmcwebcode40/simple-react-dark-mode-with-scss-lae)
+- Auth0 setup and api connnection walkthrough [referance](https://auth0.com/blog/amp/complete-guide-to-react-user-authentication/)
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
