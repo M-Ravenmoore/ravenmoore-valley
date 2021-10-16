@@ -9,6 +9,7 @@ import Profile from './Auth/profile';
 import ExternalApi from './Auth/external-api-temp';
 
 import ProtectedRoute from './Auth/protected-route';
+import AdminPannel from './adminPannel';
 
 
  function Main() {
@@ -23,6 +24,8 @@ import ProtectedRoute from './Auth/protected-route';
         <Route exact path="/store" component={Store} />
         <ProtectedRoute exact path="/profile" component={Profile} />
         <Route exact path="/API" component={ExternalApi} />
+        <Route exact path="/admin" component={AdminPannel} />
+
       </Switch>
     </div>
   );

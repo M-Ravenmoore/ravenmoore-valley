@@ -34,7 +34,7 @@ function NavigationBar(props){
             {/* if logedin ==true show menu if logedin !=true then show login button */}
             <Nav.Link href='#/profile'>Profile</Nav.Link>
             <Nav.Link href='#/api'>API - Demo</Nav.Link>
-
+            <Nav.Link href='#/admin'>admin - Demo</Nav.Link>
           </Nav>
         </Navbar.Collapse>    
       </Container>
