@@ -16,7 +16,6 @@ function Projects (props){
               These are hand made steel roses from 100% recycled materials. Sprayed with color and sealed agains wear. they make wonderfull gifts to someone you care about!
             </Card.Text>
           </Card.Body>
-          <Button href="#workshop/roses">Roses</Button>
         </Card>
         <Card className="projects">
           <Card.Img src="./images/Workshop/Arcade/Prototypeing/first-box.jpg" />
@@ -26,7 +25,6 @@ function Projects (props){
               These handmade wood boxes are Fully functional Emulators that are plug and play. also available in contorller only for add on players.
             </Card.Text>
           </Card.Body>
-          <Button href="#workshop/arcade">Arcade</Button>
         </Card>
       </section>
     </div>

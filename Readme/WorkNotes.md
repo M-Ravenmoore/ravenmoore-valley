@@ -1,10 +1,6 @@
 # Work Notes
 
-## Current Tasks
-
-- Pages to make
-  - newsletter/blog on news page??
-  - FAQ page
+## Current Tassk
 
 ## Future features
 
