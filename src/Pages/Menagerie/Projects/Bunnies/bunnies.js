@@ -16,7 +16,6 @@ function Bunnies (props){
               Big soft comphy fluf bunnies come in 2 sizes and several colors/paterns.
             </Card.Text>
           </Card.Body>
-          <Button href="#menagerie/bunnies/flufs">Fluf Buns</Button>
         </Card>
         <Card className="projects">
           <Card.Img src="./images/Menagerie/Bunnies/Mini-buns/Mini-bun-front.jpg" />
@@ -26,7 +25,7 @@ function Bunnies (props){
               only about 3in tall thes are beanbag buns in rainbow colors
             </Card.Text>
           </Card.Body>
-          <Button href="#menagerie/bunnies/micros">Micro Buns</Button>
+          
         </Card>
         </section>
     </div>

@@ -10,6 +10,7 @@
   --theme-nav-text:rgb(255, 255, 255);
   --theme-btn-background: rgba(255, 255, 255, 0.55);
   --theme-btn-text:rgb(0, 0, 0);
+  --theme-carousel-caption-bg: rgba(158, 221, 240,.5);
 }
 
 .dark {
@@ -23,5 +24,6 @@
   --theme-panel-background:rgba(48,16,98,.75);
   --theme-nav-text:rgb(255, 255, 255);
   --theme-btn-background: rgba(0, 0, 0, 0.35);
+  --theme-carousel-caption-bg: rgba(0, 0, 0, 0.60);
   --theme-btn-text:rgb(255, 255, 255);
 }

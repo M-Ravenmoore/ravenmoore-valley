@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Auth0ProveiderWithHistory from './componets/Auth/auth0-provider-with-history';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import reportWebVitals from './reportWebVitals';
 
+import store from './redux-store/index'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import "./scss/custom.scss"
@@ -19,9 +21,11 @@ import "./scss/custom.scss"
 ReactDOM.render(
   <Router>
     <React.StrictMode>
+      <Provider store={store}>
       <Auth0ProveiderWithHistory>
         <App />
       </Auth0ProveiderWithHistory>
+      </Provider>
     </React.StrictMode>
   </Router>,
   document.getElementById('root')

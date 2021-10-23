@@ -26,7 +26,6 @@ function HuginnProjects (props){
               RAWR! There are Dragons in this page be warned. Cute flufy lovable dragons. Created on Commision and customizable with in reasone click below to learn more.
             </Card.Text>
           </Card.Body>
-          <Button href="#menagerie/dragons">Dragons</Button>
         </Card>
       </section>
     </div>

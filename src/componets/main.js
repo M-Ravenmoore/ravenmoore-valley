@@ -1,5 +1,7 @@
 import React from 'react';
 import {Route,Switch} from 'react-router-dom';
+import ProtectedRoute from './Auth/protected-route';
+
 import Home from '../Pages/home';
 import About from '../Pages/about';
 import Artists from '../Pages/artists';
@@ -8,8 +10,8 @@ import Store from '../Pages/store-temp';
 import Profile from './Auth/profile';
 import ExternalApi from './Auth/external-api-temp';
 
-import ProtectedRoute from './Auth/protected-route';
-
+import AdminPannel from '../Pages/admin/adminPannel';
+import newsForm from '../Pages/admin/newsForm';
 
  function Main() {
   
@@ -22,7 +24,10 @@ import ProtectedRoute from './Auth/protected-route';
         <Route exact path="/news" component={News} />
         <Route exact path="/store" component={Store} />
         <ProtectedRoute exact path="/profile" component={Profile} />
+        <ProtectedRoute exact path="/newspost" component={newsForm} />
         <Route exact path="/API" component={ExternalApi} />
+        <Route exact path="/admin" component={AdminPannel} />
+
       </Switch>
     </div>
   );
