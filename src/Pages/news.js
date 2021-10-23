@@ -22,12 +22,14 @@ function News (props){
     <div className='news'>
     <h2>News</h2>
     <p>This will become like our Bulitin or Newsletter space with community updates and news about our projects and status.</p>
+
+    {/* this wants to show in newest to oldes order */}
     { 
     Object.keys(newsPosts).map((post,idx) =>(
       <div key= {idx} className="newsPosts">
         <h2> '{newsPosts[post].newsTitle} '</h2>
         <p>' {newsPosts[post].newsContent} '</p>
-        <p classname="timestamp">'timestamp:{newsPosts[post].newsDate}'</p>
+        <p className="timestamp">'timestamp:{newsPosts[post].newsDate}'</p>
         <p className="author">'PostedBy:{newsPosts[post].postedBy}'</p>
       </div>
     ))

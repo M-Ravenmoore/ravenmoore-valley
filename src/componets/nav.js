@@ -35,6 +35,7 @@ function NavigationBar(props){
             <Nav.Link href='#/profile'>Profile</Nav.Link>
             <Nav.Link href='#/api'>API - Demo</Nav.Link>
             <Nav.Link href='#/admin'>admin - Demo</Nav.Link>
+            <Nav.Link href='#/newspost'>add news</Nav.Link>
           </Nav>
         </Navbar.Collapse>    
       </Container>
