@@ -15,8 +15,8 @@ function News (props){
         })
   };
   useEffect(() =>{
-    getNews();
-  },[]);
+    getNews([getNews]);
+  },);
 
   return(
     <div className='news'>

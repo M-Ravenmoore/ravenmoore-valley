@@ -1,7 +1,7 @@
 const serverUrl = process.env.REACT_APP_SERVER_URL;
 const callApi = async () => {
   try {
-    const response = await fetch(`${serverUrl}/api/listings`);
+    const response = await fetch(`${serverUrl}/api/listing`);
     console.log(response)
     
     const responseData = await response.json();

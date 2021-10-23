@@ -21,8 +21,8 @@ const AdminPannel = () => {
     }
  
     useEffect(() =>{
-     callSecureApi();
-    },[]);
+     callSecureApi([callSecureApi]);
+    },);
 
 return (
   <>
