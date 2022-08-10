@@ -14,7 +14,6 @@ export default function Footer() {
         <ul>
           <li><Link to="contact">Contact</Link></li>
           <li><Link to="about">About Us</Link></li>
-          <li>Legal Stuff</li>
         </ul>
       </section>
       <section id="icons" >
@@ -22,7 +21,7 @@ export default function Footer() {
          <a href="https://www.facebook.com/RavenmooreValley"> <FontAwesomeIcon icon={faFacebook} size="2x"/></a>
         </div>
         <div className="icon">
-          <a href="https://www.instagram.com/dusklorne/"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
+          <a href="https://www.instagram.com/ravenmoorevalley/"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
         </div>
         <div className="icon">
           <a href="https://discord.gg/awec8dnm67"><FontAwesomeIcon icon={faDiscord} size="2x"/></a>
@@ -31,7 +30,7 @@ export default function Footer() {
       <section id="right-links">
         <ul>
           <li><Link to="creator">Market Application</Link></li>
-          <li><Link to="faq">FAQ</Link></li>
+          <li>Legal Stuff</li>
         </ul>
       </section>
     </footer>

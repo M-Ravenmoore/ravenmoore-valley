@@ -18,37 +18,39 @@ function Home(props){
 
       <section className="content-A" id="second-row">
       <h2>The Ravenmoore Family</h2>
-        <p> The Cornerstone of the Ravenmoore Community is The Ravenmoore Clan, Muninn and Huginn Ravenmoore. They are the driving forces behind all you see here, as such they have their own 'workshops' so to say. In Muninn's Workshop you will find his current projects listed with regular updates. while in Huginn's Menagerie you will find the wonderful array of her creations. Also you can check out our Featured Makes in our Artisans directory. </p>
+        <p> The Cornerstone of Ravenmoore Valley is The founder, Matt or Dusk Ravenmoore. He along side Dawn have created the unique space here where many artists can share thier wares with the world. As such each Artisan of Ravenmoore valley has their own Shop within the valley where youll find their fine creations. Head on over to the Artisans Directory to browse by artist. </p>
       </section>
 
       <div className="panels" id="panelContainer">
-        <section className="infoPanel-A" id="Workshop">
+        <section className="infoPanel-A" id="Scale">
           <img 
             className="panelImg"
-            src="./images/Workshop/tools-banner.jpg"
-            alt="Workshop"
+            src="./images/Logo/SearedScaleLogo.png"
+            alt="seared_scale_logo"
           />
-          <h4>Muninns Workshop</h4>
-          <p>Custom Crafts and Wonderous Creations are imagined in Muninn's Workshop Come see!</p>
+          <h4>The Seared Scale</h4>
+          <p>Custom Crafts and Wonderous Creations are imagined in Dusks Lair Come see!</p>
           <Button href='#artists' variant='dark'>Artisans directory</Button>
         </section>
-        <section className="infoPanel-A" id="Menagerie">
+
+        <section className="infoPanel-A" id="Feather">
           <img 
             className="panelImg"
-            src="./images/Menagerie/Menagerie-banner.jpg"
-            alt="Menagerie"
+            src="./images/Logo/flameingFeather_lg.png"
+            alt="Flaming Feather apothics"
           />
-          <h4>Huginns Menagerie</h4>
-          <p> Come wander in wonder through Huginn's Menagerie of yarn Critter creations</p>
+          <h4>Flaming Feather Apothics</h4>
+          <p> Herbs and and natrual remidies for common ailments and strifes</p>
           <Button href='#artists' variant='dark'>Artisans directory</Button>
         </section>
+
         <section className="infoPanel-A" id="artisans">
           <img 
             className="panelImg"
-            src="./images/HomeSlides/saw-heart.jpg"
+            src="./images/Logo/RavenmoreValley_Logo.png"
             alt="Artisans"
           />
-          <h4>Ravenmoore Community Artisans</h4>
+          <h4>Ravenmoore Valley Consigning Artists</h4>
           <p>Or Take a Tempting peak at the other fine creators of Ravenmoore Valley</p>
           <Button href='#artists' variant='dark'>Artisans directory</Button>
         </section>
