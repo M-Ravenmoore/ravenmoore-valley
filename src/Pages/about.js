@@ -25,7 +25,8 @@ function About(props){
             <Card.Text> Meet Dusk Ravenmoore. He is The head of House Ravenmoore. The visonary, and driving force behind Ravenmoore Valley and its Community. Dusk is primarily a metal artist and can work with most anything else excepting glass.  He  regularly 'collects' artists and crafters that have talent but no ability to make a booth or shop into The Ravenmoore Valley Market. His shop withing ravenmoore valley is The seared scale click below to wander in</Card.Text>
           </Card.Body>
           <div className="cardBtn">
-          <Button variant="dark" href='#seardScale' >The Seared Scale</Button>
+          <Button href="https://ravenmoore-profile.netlify.app" variant="dark">Portfolio</Button>
+          
           </div>
         </Card>
 
@@ -37,7 +38,7 @@ function About(props){
             <Card.Text> Dawn will be writing her own bio here shortly folks just you wait her botainicals do wonderous things! </Card.Text>
           </Card.Body>
           <div className="cardBtn">
-           <Button href='#flameingFeather' variant= "dark">Flameing Feather</Button>
+          <Button variant="dark">Portfolio</Button>
           </div>
         </Card>
       </section>

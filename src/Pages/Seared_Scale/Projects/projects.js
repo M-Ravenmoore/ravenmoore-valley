@@ -9,7 +9,7 @@ function Projects (props){
       <h2>Projects</h2>
       <section className="project-cards">
         <Card  className="projects">
-          <Card.Img src="./images/Workshop/Roses/Main/batch-red-std.jpg" />
+          <Card.Img src="./images/Seared_Scale/Roses/Main/batch-red-std.jpg" />
           <Card.Body>
             <Card.Title>Hand Made Metal Roses</Card.Title>
             <Card.Text>
@@ -18,7 +18,7 @@ function Projects (props){
           </Card.Body>
         </Card>
         <Card className="projects">
-          <Card.Img src="./images/Workshop/Arcade/Prototypeing/first-box.jpg" />
+          <Card.Img src="./images/Seared_Scale/Arcade/Prototypeing/first-box.jpg" />
           <Card.Body>
             <Card.Title>Wood Pannel Arcade</Card.Title>
             <Card.Text>

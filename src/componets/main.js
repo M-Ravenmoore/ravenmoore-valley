@@ -8,6 +8,12 @@ import Artists from '../Pages/artists';
 import News from '../Pages/news';
 import Store from '../Pages/store-temp';
 import Profile from './Auth/profile';
+import SearedScale from '../Pages/Seared_Scale/seared-scale';
+import FlameingFeather from '../Pages/Flameing Feather/flameing-feather';
+import Oils from '../Pages/Flameing Feather/Projects/oils';
+import Tinctures from '../Pages/Flameing Feather/Projects/tinctures';
+
+
 import ExternalApi from './Auth/external-api-temp';
 
 import AdminPannel from '../Pages/admin/adminPannel';
@@ -21,6 +27,12 @@ import newsForm from '../Pages/admin/newsForm';
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/artists" component={Artists} />
+        <Route exact path="/searedscale" component={SearedScale} />
+        <Route exact path="/flameingfeather" component={FlameingFeather} />
+        <Route exact path="/flameingfeather/oils" component={Oils} />
+        <Route exact path="/flameingfeather/tinctures" component={Tinctures} />
+
+      
         <Route exact path="/news" component={News} />
         <Route exact path="/store" component={Store} />
         <ProtectedRoute exact path="/profile" component={Profile} />

@@ -22,21 +22,33 @@ function Artists(props){
             <Card.Text> Specializing in metal work, Muninn offers commisonable services that include: Metal craft, Wood Craft, Leather Craft, Resin, Finishing work and more...</Card.Text>
           </Card.Body>
           <div className="cardBtn">
-            <Button href="https://ravenmoore-profile.netlify.app" variant="dark">My Portfolio</Button>
-
+            <Button variant="dark" href='#searedscale' >The Seared Scale</Button>
             {/* this should lead to an contact form pre addressed to artists email */}
             <Button href="#" variant="dark">Commission Me</Button>
           </div>
         </Card>
 
         <Card className='artisans'>
-          <Card.Img className='Headshot' src="./images/Headshots/Huginn-Headshot.jpg" alt="Headshot" />
+          <Card.Img className='Headshot' src="./images/Headshots/Dawn-Headshot.jpg" alt="Dawn-Headshot" />
           <Card.Body>
-            <Card.Title>Huginn Ravenmoore</Card.Title>
+            <Card.Title>Dawn Gallows</Card.Title>
             <Card.Subtitle>Yarn Artist</Card.Subtitle>
-            <Card.Text> From small to large Huginn make all kinds of kritters and creations from yarns... you can commision her currently for Dragons, and other specialty Yarn creations. </Card.Text>
+            <Card.Text> Dawns bio here </Card.Text>
           </Card.Body>
           <div className="cardBtn"> 
+            <Button href='#flameingfeather' variant= "dark">Flameing Feather</Button>
+            <Button href="#" variant= "dark">Commission Me</Button>
+          </div>
+        </Card>
+
+        <Card className='artisans'>
+          <Card.Img className='Headshot' src="./images/Headshots/Trog-Headshot.jpg" alt="Dawn-Headshot" />
+          <Card.Body>
+            <Card.Title>Trog</Card.Title>
+            <Card.Subtitle>ChainMaile and Stitching</Card.Subtitle>
+            <Card.Text> Trogs bio here </Card.Text>
+          </Card.Body>
+          <div className="cardBtn">
             <Button href="#" variant= "dark">Commission Me</Button>
           </div>
         </Card>
