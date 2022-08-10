@@ -17,7 +17,7 @@ import newsForm from '../Pages/admin/newsForm';
   
   return(
     <div id="main" className="main">
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/artists" component={Artists} />
@@ -28,7 +28,8 @@ import newsForm from '../Pages/admin/newsForm';
         <Route exact path="/API" component={ExternalApi} />
         <Route exact path="/admin" component={AdminPannel} />
 
-      </Switch>
+      </Switch> */}
+      Please pardon the mess for the next few days as we rearrange a few things!
     </div>
   );
 }
