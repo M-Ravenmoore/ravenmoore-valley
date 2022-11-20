@@ -10,8 +10,11 @@
   font-family: 'Neuton', serif;
   font-size: 1.2em;
 }
-.infoPanel-A, .content-A{
+.infoPanel-A{
   background-color:var(--theme-panel-background);
+}
+.content-A{
+  background-color:var(--theme-contentA-background);
 }
 .theme-switch{
   float: left;
@@ -32,7 +35,7 @@
   }
   .content-A{
     border-radius: 35px;
-    border: 2px black solid;
+    border: 2px var(--theme-border) solid;
     text-align: center;
     margin: 1.25em;
     padding: 1.5em;
@@ -66,7 +69,7 @@
     margin: 1.25em;
     padding: 1.125em;
     border-radius: 25px;
-    border: 2px black solid;
+    border: 2px var(--theme-border) solid;
     justify-content: center;
     align-content: center;
     margin: 20px auto ;
@@ -75,8 +78,6 @@
   .panelImg{
     margin: 5px auto;
     width: 75%;
-    border:4px var(--theme-page-background) solid;
-    border-radius: 40%;
    }
 
   .nav-bar{
