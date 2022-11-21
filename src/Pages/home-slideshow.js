@@ -21,7 +21,7 @@ function HomeSlides() {
       <img
         className="d-block w-100"
         src="./images/HomeSlides/booth.jpg"
-        alt="Booth Photo"
+        alt="Booth"
       />
       <Carousel.Caption>
         <h6>Officaly At Markets NOW!!</h6>

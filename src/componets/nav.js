@@ -3,7 +3,6 @@ import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import ThemeSwitch from "./theme-switch";
-import AuthButton from "./Auth/auth-btn";
 
 function NavigationBar(props){
   return(
