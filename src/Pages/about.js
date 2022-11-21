@@ -8,52 +8,56 @@ function About(props){
 
   return(
     <div id="appAbout" className="About">
+      <div id="aboutSectionOne" className='aboutTop'>
       <article className="content-A">
         <h2>About The Ravenmoore Community</h2>
-        <p> Ravenmoore Valley, is the community built by Muninn (Matt) and Huginn (Rebecca) Ravenmoore and their close friends. It is slowly growing, and we hope it continues. We are Artists creators, designers, builders and more. This community is about creating and thriveing together as a group.  As you browse our community site you will find we do many things and involve our comunity in most of it.  From renactment events, to local and streamed bonfires, charity events / drives, Twitch streaming, creating, community gardening, even a store to sell our creations to our lovely community members. </p>
+          <p> Ravenmoore Valley, is more than just a store or a few artists it is a community, Driven by its founder Dusk (Matt) Ravenmoore, but shaped and added to but everyone involved from the artists the to our amazing clients that come to us asking to make their dreams and wishes come true, to viwers that watch from afar via Insta and Twitch alike.</p>
+
+          <p>Our Goal is to bring to gether small crafters and creators that art too small to make market on their own and give them a startig place to sell thier wares... Given they fit our Renasuance motive and a few other guidelines.... </p>
       </article>
-
-        <h3>The Community Leaders and Rolls</h3>
-      <section className="founder-cards">
-      
-        <Card className="founders">
-          <Card.Img className='Headshot' src="./images/Headshots/matt-headshot.png" alt="Muninn Ravenmoore Headshot" />
-          <Card.Body>
-            <Card.Title>Mastermind</Card.Title>
-            <Card.Subtitle>Muninn (Matt) Ravenmoore</Card.Subtitle>
-            <Card.Text> Meet Muninn Ravenmoore. He is The head of the Ravenmoore Family and The visonary, and driving force behind The Ravenmoore Valley Community. Muninn is primarily a metal artist and but he dabbles is many others, a true "jack of all trades master of few" kind of guy.  He  regularly 'collects' artists and crafters that have talent but no ability to make a booth or shop into The Ravenmoore Valley Market.</Card.Text>
-          </Card.Body>
-          <div className="cardBtn">
-          <Button variant="dark" href='#workshop' >Workshop</Button>
+      <div id='imgContainer' className='infoPanel-A'>
+        <img 
+            className="aboutImg"
+            src="./images/"
+            alt=""
+          />
           </div>
-        </Card>
+      </div>
 
-        <Card className="founders">
-          <Card.Img className='Headshot' src="./images/Headshots/Huginn-Headshot.jpg" alt="Headshot" />
-          <Card.Body>
-            <Card.Title>Marketing PR and Social Media</Card.Title>
-            <Card.Subtitle>Huginn (Rebecca) Ravenmoore</Card.Subtitle>
-            <Card.Text> Meet Huginn Ravenmoore, wife to Muninn, and often the public face of Ravenmoore Valley. Her crafts include Crocheting, sewing, papercraft and more. </Card.Text>
-          </Card.Body>
-          <div className="cardBtn">
-           <Button href='#menagerie' variant= "dark">Menagerie</Button>
+      <div id="aboutSectionTwo" className='aboutMid'>
+        <div id='imgContainer' className='infoPanel-A'>
+        <img 
+            className="aboutImg"
+            src="./images/"
+            alt=""
+          />
           </div>
-        </Card>
-      
+      <article className="content-A">
+         
+          <h2>Our Story</h2>
+          <p> The Dream of Ravenmoore Valley was started neigh on 8 years ago, when Dusk realized he had many crafters but none of them sold things becasue it was too much to have a shop of booth. Enter in his inovation. Bringing together small crafters with a large range of skills. Unfortunatly disaster stuck 5 years ago when Dusk was taken down by an injury. But it didnt die... over covid and a lot of Physical theropy Dusk and Ravenmoore Valley have build themselves back up and are now out starting to bring custom creating to fairs around the PNW</p>
 
-        <Card className="founders">
-          <Card.Img className='Headshot' src="./images/HomeSlides/saw-heart.jpg" alt="Headshot" />
-          <Card.Body>
-            <Card.Title>The Ravenmoore Artisans</Card.Title>
-            <Card.Subtitle>The Artists, Crafters, ect</Card.Subtitle>
-            <Card.Text> These are the people that have asked for space in our Ravenmoore Valley Market. The Creators, Makers, Tinkers, and more. Usualy small little know artists that need a place to seell their wears. you can find out more by clicking below</Card.Text>
-          </Card.Body>
-          <div className="cardBtn">
-            <Button href="#" variant="dark">Market Application</Button>
-            <Button href='#Artists' variant="dark">Artists</Button>
+      </article>
+     
+      </div>
+      <div id="aboutSectionThree" className='aboutEnd'>
+        <div id='imgContainer' className='infoPanel-A'>
+        <img 
+            className="aboutImg"
+            src="./images/"
+            alt=""
+          />
           </div>
-        </Card>
-      </section>
+      <article className="content-A">
+         
+          <h2>The Future Of Ravenmoore Valley</h2>
+          <p> We are ever growing and changeing, we have recently aquired a few new tools and spaces that we hope to get up and running soon. along with our new Loft clean shop for printing and painting. The forge is almost ready to tour and the truck is being dimentioned to become a dragon! So many cool and adventerous things coming!!</p>
+          {/* add button to news when it is up and running! */}
+
+      </article>
+     
+      </div>
+
     </div>  
   )
 }

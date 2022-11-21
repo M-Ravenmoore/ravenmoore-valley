@@ -16,30 +16,16 @@ function NavigationBar(props){
           <Nav className="me-auto">
             <Nav.Link href="#/">Home</Nav.Link>
             <Nav.Link href="#/about">About</Nav.Link>
+            <ThemeSwitch />
             <Nav.Link href="#/artists">Artisans</Nav.Link>
-            <Nav.Link href="#/news">News</Nav.Link>
-            <Nav.Link href="https://www.etsy.com/shop/RavenmooreValleyShop">Etsy Shop</Nav.Link>
+            <Nav.Link href="#/shops">Shops</Nav.Link>
+            {/* <Nav.Link href="#/news">News</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>    
       </Container>
     </Navbar>
 
-    <ThemeSwitch />
-    <Navbar className="user-menu"  variant="dark" expand="xxxl" sticky="top"> 
-      <Container expand="xxl" className="user-container">
-        <Navbar.Toggle aria-controls="user-nav" />
-        <Navbar.Collapse id="user-nav">
-          <Nav className="user-auto">
-            <AuthButton />
-            {/* if logedin ==true show menu if logedin !=true then show login button */}
-            <Nav.Link href='#/profile'>Profile</Nav.Link>
-            <Nav.Link href='#/api'>API - Demo</Nav.Link>
-            <Nav.Link href='#/admin'>admin - Demo</Nav.Link>
-            <Nav.Link href='#/newspost'>add news</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>    
-      </Container>
-    </Navbar>
+    
     </div>
     </>
   )
