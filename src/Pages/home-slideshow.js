@@ -19,16 +19,15 @@ function HomeSlides() {
     </Carousel.Item>
     <Carousel.Item>
       <img
-      // extra life banner
         className="d-block w-100"
-        src="./images/HomeSlides/Extra Life Impact Facts.JPG"
-        alt="Extra Life"
+        src="./images/HomeSlides/booth.jpg"
+        alt="Booth"
       />
       <Carousel.Caption>
-        <Link to='#news'><h6>Upcomming Events</h6></Link>
+        <h6>Officaly At Markets NOW!!</h6>
       </Carousel.Caption>
     </Carousel.Item>
-    <Carousel.Item>
+    {/* <Carousel.Item>
       <img
         className="d-block w-100"
         src="./images/HomeSlides/rose banner.jpg"
@@ -36,6 +35,16 @@ function HomeSlides() {
       />
       <Carousel.Caption>
         <Link to='#store'><h6>Awesome crafts avialiable in our Store!</h6></Link>
+      </Carousel.Caption>
+    </Carousel.Item> */}
+    <Carousel.Item>
+      <img
+        className="d-block w-100"
+        src="./images/HomeSlides/tinctures.jpg"
+        alt="Tinctures"
+      />
+      <Carousel.Caption>
+        <Link to='news'><h6>Tinctures are comming soon 3weeks away! click here for more!</h6></Link>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>

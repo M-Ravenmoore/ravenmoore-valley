@@ -3,7 +3,7 @@
 .card{
   background-color:var(--theme-card-background);
   border-radius: 35px;
-  border: 2px black solid;
+  border: 2px var(--theme-border) solid;
   margin: 25px auto;
 }
 .card h1,h2,h3,h4,h5,h6{
@@ -21,7 +21,7 @@
   color: var(--theme-btn-text);
   background-color:var(--theme-btn-background);
   font-family: 'Neuton', serif;
-  border:1px black solid ;
+  border:1px var(--theme-border) solid ;
   width:45%;
   margin: 20px auto;
   text-align: center;
@@ -44,12 +44,12 @@
   background-color: var(--theme-nav-background);
 }
 .carousel{
-  width: 80%;
+  width: 55%;
   margin: 10px auto;
-  border: black 2px solid;
+  border: var(--theme-border) 2px solid;
 }
 .carousel-caption{
-  height: 20%;
-  background-color: var(--theme-nav-background);
+  height: 12%;
+  background-color: var(--theme-carousel-caption-bg);
   color: var(--theme-nav-text)
 }

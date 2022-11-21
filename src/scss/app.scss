@@ -10,11 +10,14 @@
   font-family: 'Neuton', serif;
   font-size: 1.2em;
 }
-.infoPanel-A, .content-A{
+.infoPanel-A{
   background-color:var(--theme-panel-background);
 }
+.content-A{
+  background-color:var(--theme-contentA-background);
+}
+
 .theme-switch{
-  float: left;
   width: 150px;
   .btn{
     background-color:var(--theme-btn-background);
@@ -28,13 +31,22 @@
 @media (min-width: 340px) {
   .Main{
     margin: auto;
-    width: 95%;
+    width: 98%;
+  }
+  .aboutImg{
+    width: 75%;
+    border-radius: 35px;
+    border: 2px var(--theme-border) solid;
+    text-align: center;
+    margin: 1.5em auto;
+    padding: 1.5em;
   }
   .content-A{
+    width: 75%;
     border-radius: 35px;
-    border: 2px black solid;
+    border: 2px var(--theme-border) solid;
     text-align: center;
-    margin: 1.25em;
+    margin: 1.5em auto;
     padding: 1.5em;
   }
   .cardBtn{
@@ -66,7 +78,7 @@
     margin: 1.25em;
     padding: 1.125em;
     border-radius: 25px;
-    border: 2px black solid;
+    border: 2px var(--theme-border) solid;
     justify-content: center;
     align-content: center;
     margin: 20px auto ;
@@ -75,8 +87,6 @@
   .panelImg{
     margin: 5px auto;
     width: 75%;
-    border:4px var(--theme-page-background) solid;
-    border-radius: 40%;
    }
 
   .nav-bar{
@@ -85,11 +95,13 @@
     z-index: 10;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     background-color: var(--theme-nav-background); 
   }
   .nav-container{
     display: flex;
     justify-content: center;
+    align-content: center;
 
   }
   .user-container{

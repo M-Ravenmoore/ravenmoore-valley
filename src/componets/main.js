@@ -1,15 +1,26 @@
 import React from 'react';
 import {Route,Switch} from 'react-router-dom';
+import ProtectedRoute from './Auth/protected-route';
+
 import Home from '../Pages/home';
 import About from '../Pages/about';
-import Artists from '../Pages/artists';
+import Artists from '../Pages/artists/artists';
 import News from '../Pages/news';
 import Store from '../Pages/store-temp';
 import Profile from './Auth/profile';
+import SearedScale from '../Pages/valley_shops/Seared_Scale/seared-scale';
+import FlameingFeather from '../Pages/valley_shops/Flameing Feather/flameing-feather';
+import Oils from '../Pages/valley_shops/Flameing Feather/Projects/oils';
+import Tinctures from '../Pages/valley_shops/Flameing Feather/Projects/tinctures';
+
+import Disclaimer from './disclaimer';
+
+import newsForm from '../Pages/admin/newsForm';
+import ArtistDetails from '../Pages/artists/artist_details';
+
 import ExternalApi from './Auth/external-api-temp';
-
-import ProtectedRoute from './Auth/protected-route';
-
+import AdminPannel from '../Pages/admin/adminPannel';
+import ShopsMain from '../Pages/valley_shops/shops-main';
 
  function Main() {
   
@@ -19,10 +30,21 @@ import ProtectedRoute from './Auth/protected-route';
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/artists" component={Artists} />
+        <Route exact path="/searedscale" component={SearedScale} />
+        <Route exact path="/flameingfeather" component={FlameingFeather} />
+        <Route exact path="/flameingfeather/oils" component={Oils} />
+        <Route exact path="/flameingfeather/tinctures" component={Tinctures} />
+
+        <Route exact path="/legal" component={Disclaimer} />
+        <Route exact path="/artistDetails" component={ArtistDetails} />
+        <Route exact path="/shops" component={ShopsMain} />
         <Route exact path="/news" component={News} />
         <Route exact path="/store" component={Store} />
         <ProtectedRoute exact path="/profile" component={Profile} />
+        <ProtectedRoute exact path="/newspost" component={newsForm} />
         <Route exact path="/API" component={ExternalApi} />
+        <Route exact path="/admin" component={AdminPannel} />
+
       </Switch>
     </div>
   );

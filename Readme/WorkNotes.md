@@ -2,9 +2,9 @@
 
 ## Current Tasks
 
-- Pages to make
-  - newsletter/blog on news page??
-  - FAQ page
+ - build stand alone server with mongo db for artisans, news forum, shops displays, and long term a store
+ - add photos where open slots
+ - address scss issuse with alignment and visual tweeks
 
 ## Future features
 
