@@ -1,6 +1,10 @@
 # Work Notes
 
-## Current Tassk
+## Current Tasks
+
+ - build stand alone server with mongo db for artisans, news forum, shops displays, and long term a store
+ - add photos where open slots
+ - address scss issuse with alignment and visual tweeks
 
 ## Future features
 

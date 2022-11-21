@@ -4,6 +4,15 @@
 
 ### LOG
 
+- 2.3.1 (11/20/2022)
+  - Update to colors
+  - removed Huginn and all related articles
+  - worked on legal page and finished it
+  - full over haul on home page and header
+  - mostly fixed nav bar still needs centering
+  - content fully updated without photos...
+  - Preped for db intigration for shops and artisan databases
+
 - 2.2.1-3 (8/10/2022)
   - hidden user interface for login untill fully functional.
   - updated content and layout with new pages and links... preping for shoping cart functionality with the artists directory pages
