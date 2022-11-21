@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="footer">
       <section id="left-links">
         <ul>
-          <li><Link to="contact">Contact</Link></li>
+          {/* <li><Link to="contact">Contact</Link></li>  */} {/* hidden untill page is complete*/}
           <li><Link to="about">About Us</Link></li>
         </ul>
       </section>
@@ -29,8 +29,8 @@ export default function Footer() {
       </section>
       <section id="right-links">
         <ul>
-          <li><Link to="creator">Market Application</Link></li>
-          <li>Legal Stuff</li>
+          {/* <li><Link to="creator">Market Application</Link></li> */}   {/* hidden untill page is complete*/}
+          <li><Link to="legal">Legal Stuff</Link></li>
         </ul>
       </section>
     </footer>

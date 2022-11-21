@@ -4,16 +4,17 @@
   --theme-page-background: rgba(177,126,15,0.6);
   --theme-page-text: rgb(17,17,17);
   --theme-page-htext: rgb(0,0,0);
-  --theme-nav-background:rgba(0,0,0,0.80);
+  --theme-nav-background:rgba(0,0,0,.80);
   --theme-card-background: rgba(151,183,191,0.70);
-  --theme-footer-background: rgba(69,201,201,.50);
-  --theme-contentA-background:rgb(69,201,201,.78);
+  --theme-footer-background: rgba(69,185,201,.50);
+  --theme-contentA-background:rgb(69,185,201,.70);
   --theme-panel-background:rgb(151,183,191,0.70);
   --theme-carousel-caption-bg: rgba(158,221,240,.5);
   --theme-nav-text:rgb(255, 255, 255);
   --theme-btn-background: rgba(255,255,255,0.55);
   --theme-btn-text:rgb(0, 0, 0);
   --theme-border:rgb(0,0,0);
+  --theme-logo-bg:rgba(0,0,0,0);
 }
 
 .dark {
@@ -31,4 +32,5 @@
   --theme-btn-text:rgb(255, 255, 255);
   --theme-contentA-background:rgba(145,50,0,.75);
   --theme-border:rgba(85,0,0,.95);
+  --theme-logo-bg:rgba(245, 225, 40,.5);
 }

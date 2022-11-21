@@ -16,8 +16,8 @@
 .content-A{
   background-color:var(--theme-contentA-background);
 }
+
 .theme-switch{
-  float: left;
   width: 150px;
   .btn{
     background-color:var(--theme-btn-background);
@@ -86,11 +86,13 @@
     z-index: 10;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     background-color: var(--theme-nav-background); 
   }
   .nav-container{
     display: flex;
     justify-content: center;
+    align-content: center;
 
   }
   .user-container{

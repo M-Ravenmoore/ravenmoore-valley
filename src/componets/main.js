@@ -13,11 +13,12 @@ import FlameingFeather from '../Pages/Flameing Feather/flameing-feather';
 import Oils from '../Pages/Flameing Feather/Projects/oils';
 import Tinctures from '../Pages/Flameing Feather/Projects/tinctures';
 
+import Disclaimer from './disclaimer';
+
+import newsForm from '../Pages/admin/newsForm';
 
 import ExternalApi from './Auth/external-api-temp';
-
 import AdminPannel from '../Pages/admin/adminPannel';
-import newsForm from '../Pages/admin/newsForm';
 
  function Main() {
   
@@ -32,7 +33,7 @@ import newsForm from '../Pages/admin/newsForm';
         <Route exact path="/flameingfeather/oils" component={Oils} />
         <Route exact path="/flameingfeather/tinctures" component={Tinctures} />
 
-      
+        <Route exact path="/legal" component={Disclaimer} />
         <Route exact path="/news" component={News} />
         <Route exact path="/store" component={Store} />
         <ProtectedRoute exact path="/profile" component={Profile} />

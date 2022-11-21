@@ -9,7 +9,6 @@ function NavigationBar(props){
   return(
     <>
     <div className="nav-bar">
-    <ThemeSwitch />
     <Navbar className="site-menu" expand="lg" variant="dark"  sticky="top">
       <Container className="nav-container">
         <Navbar.Toggle aria-controls="raven-nav" />
@@ -17,6 +16,7 @@ function NavigationBar(props){
           <Nav className="me-auto">
             <Nav.Link href="#/">Home</Nav.Link>
             <Nav.Link href="#/about">About</Nav.Link>
+            <ThemeSwitch />
             <Nav.Link href="#/artists">Artisans</Nav.Link>
             <Nav.Link href="#/news">News</Nav.Link>
           </Nav>
