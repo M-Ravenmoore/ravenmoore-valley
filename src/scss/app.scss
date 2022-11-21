@@ -31,13 +31,14 @@
 @media (min-width: 340px) {
   .Main{
     margin: auto;
-    width: 95%;
+    width: 98%;
   }
   .content-A{
+    width: 75%;
     border-radius: 35px;
     border: 2px var(--theme-border) solid;
     text-align: center;
-    margin: 1.25em;
+    margin: 1.5em auto;
     padding: 1.5em;
   }
   .cardBtn{
