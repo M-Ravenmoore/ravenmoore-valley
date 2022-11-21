@@ -4,21 +4,23 @@ import ProtectedRoute from './Auth/protected-route';
 
 import Home from '../Pages/home';
 import About from '../Pages/about';
-import Artists from '../Pages/artists';
+import Artists from '../Pages/artists/artists';
 import News from '../Pages/news';
 import Store from '../Pages/store-temp';
 import Profile from './Auth/profile';
-import SearedScale from '../Pages/Seared_Scale/seared-scale';
-import FlameingFeather from '../Pages/Flameing Feather/flameing-feather';
-import Oils from '../Pages/Flameing Feather/Projects/oils';
-import Tinctures from '../Pages/Flameing Feather/Projects/tinctures';
+import SearedScale from '../Pages/valley_shops/Seared_Scale/seared-scale';
+import FlameingFeather from '../Pages/valley_shops/Flameing Feather/flameing-feather';
+import Oils from '../Pages/valley_shops/Flameing Feather/Projects/oils';
+import Tinctures from '../Pages/valley_shops/Flameing Feather/Projects/tinctures';
 
 import Disclaimer from './disclaimer';
 
 import newsForm from '../Pages/admin/newsForm';
+import ArtistDetails from '../Pages/artists/artist_details';
 
 import ExternalApi from './Auth/external-api-temp';
 import AdminPannel from '../Pages/admin/adminPannel';
+import ShopsMain from '../Pages/valley_shops/shops-main';
 
  function Main() {
   
@@ -34,6 +36,8 @@ import AdminPannel from '../Pages/admin/adminPannel';
         <Route exact path="/flameingfeather/tinctures" component={Tinctures} />
 
         <Route exact path="/legal" component={Disclaimer} />
+        <Route exact path="/artistDetails" component={ArtistDetails} />
+        <Route exact path="/shops" component={ShopsMain} />
         <Route exact path="/news" component={News} />
         <Route exact path="/store" component={Store} />
         <ProtectedRoute exact path="/profile" component={Profile} />

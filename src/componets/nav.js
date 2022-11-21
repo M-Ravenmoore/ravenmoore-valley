@@ -18,7 +18,8 @@ function NavigationBar(props){
             <Nav.Link href="#/about">About</Nav.Link>
             <ThemeSwitch />
             <Nav.Link href="#/artists">Artisans</Nav.Link>
-            <Nav.Link href="#/news">News</Nav.Link>
+            <Nav.Link href="#/shops">Shops</Nav.Link>
+            {/* <Nav.Link href="#/news">News</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>    
       </Container>

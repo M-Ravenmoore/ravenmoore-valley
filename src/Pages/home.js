@@ -25,7 +25,7 @@ function Home(props){
         <section className="infoPanel-A" id="about">
           <img 
             className="panelImg"
-            src="./images/Logo/SearedScaleLogo.png"
+            src="./images/icons/day/about_sign_daymode.png"
             alt="seared_scale_logo"
           />
           <h4>Sit by the fire</h4>
@@ -36,18 +36,18 @@ function Home(props){
         <section className="infoPanel-A" id="Feather">
           <img 
             className="panelImg"
-            src="./images/Logo/flameingFeather_lg.png"
+            src="./images/icons/day/myrecipe_scroll_daymode.png"
             alt="Flaming Feather apothics"
           />
           <h4>News</h4>
-          <p>Hark and listen to the coming events and goings on of Ravenmoore valley. click below for the latest updates!</p>
-          <Button href='#news' variant='dark'>News</Button>
+          <p>Hark and listen to the coming events and goings on of Ravenmoore valley. click below SOON for the latest updates!</p>
+          <Button href='' variant='dark'>News</Button>
         </section>
 
         <section className="infoPanel-A" id="artisans">
           <img 
             className="panelImg"
-            src="./images/Logo/RavenmoreValley_Logo.png"
+            src="./images/icons/day/profile_cultist_daymode.png"
             alt="Artisans"
           />
           <h4>Ravenmoore Valley Artisans</h4>
