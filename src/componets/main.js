@@ -1,26 +1,21 @@
 import React from 'react';
 import {Route,Switch} from 'react-router-dom';
-import ProtectedRoute from './Auth/protected-route';
 
-import Home from '../Pages/home';
-import About from '../Pages/about';
-import Artists from '../Pages/artists/artists';
-import News from '../Pages/news';
-import Store from '../Pages/store-temp';
-import Profile from './Auth/profile';
-import SearedScale from '../Pages/valley_shops/Seared_Scale/seared-scale';
-import FlameingFeather from '../Pages/valley_shops/Flameing Feather/flameing-feather';
-import Oils from '../Pages/valley_shops/Flameing Feather/Projects/oils';
-import Tinctures from '../Pages/valley_shops/Flameing Feather/Projects/tinctures';
+import Home from '../pages/home';
+import About from '../pages/about';
+import Artists from '../pages/artists/artists';
+import News from '../pages/news';
+import SearedScale from '../pages/valley_shops/seared-scale/seared-scale';
+import FlameingFeather from '../pages/valley_shops/flameing-feather/flameing-feather';
+import Oils from '../pages/valley_shops/flameing-feather/products/oils';
+import Tinctures from '../pages/valley_shops/flameing-feather/products/tinctures';
 
-import Disclaimer from './disclaimer';
+import Disclaimer from '../pages/disclaimer';
+import ShopsMain from '../pages/valley_shops/shops-main';
 
-import newsForm from '../Pages/admin/newsForm';
-import ArtistDetails from '../Pages/artists/artist_details';
+import ArtistDetails from '../pages/artists/details/artist_details';
 
-import ExternalApi from './Auth/external-api-temp';
-import AdminPannel from '../Pages/admin/adminPannel';
-import ShopsMain from '../Pages/valley_shops/shops-main';
+import ExternalApi from './auth/external-api-temp';
 
  function Main() {
   
@@ -36,14 +31,11 @@ import ShopsMain from '../Pages/valley_shops/shops-main';
         <Route exact path="/flameingfeather/tinctures" component={Tinctures} />
 
         <Route exact path="/legal" component={Disclaimer} />
-        <Route exact path="/artistDetails" component={ArtistDetails} />
+        <Route path="/artistDetails" component={ArtistDetails} />
         <Route exact path="/shops" component={ShopsMain} />
         <Route exact path="/news" component={News} />
-        <Route exact path="/store" component={Store} />
-        <ProtectedRoute exact path="/profile" component={Profile} />
-        <ProtectedRoute exact path="/newspost" component={newsForm} />
+
         <Route exact path="/API" component={ExternalApi} />
-        <Route exact path="/admin" component={AdminPannel} />
 
       </Switch>
     </div>

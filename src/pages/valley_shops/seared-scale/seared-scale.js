@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Projects from './Projects/projects';
+import Projects from './projects/projects';
 
 
 function SearedScale (props){

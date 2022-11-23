@@ -5,10 +5,10 @@ import { Card } from 'react-bootstrap';
 function ShopsMain (props){
 
   return(
-    <div id='Shops'>
+    <div id='shops'>
       <h2>Ravenmoore Valley Shops</h2>
       <section className="shop-cards">
-        <Card  className="shops">
+        <Card  >
           <Card.Img src="./images/" />
           <Card.Body>
             <Card.Title>Flameing Feather</Card.Title>
@@ -18,7 +18,8 @@ function ShopsMain (props){
           </Card.Body>
           <Button href="#flameingfeather">Enter Shop</Button>
         </Card>
-        <Card className="projects">
+
+        <Card >
           <Card.Img src="./images" />
           <Card.Body>
             <Card.Title>The Seared Scale</Card.Title>
@@ -27,6 +28,7 @@ function ShopsMain (props){
             </Card.Text>
           </Card.Body>
             <Button href="#searedscale">Enter Shop</Button>
+        
         </Card>
       </section>
     </div>

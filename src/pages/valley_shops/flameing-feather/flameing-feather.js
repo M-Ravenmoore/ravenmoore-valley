@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DawnsProjects from './Projects/dawns-projects';
+import FfProducts from './products/ff-products';
 
 function FlameingFeather (props){
 
@@ -11,8 +11,8 @@ function FlameingFeather (props){
         
         <p>Dawn gallows co-owner of ravenmoorevalley works with plants and minerals to create wonderfull remidies for all of your commmon and some uncomon ailments. you will find our current catilogue by clicking below.</p>
       </section>
-      <section id='Projects-Dawn'>
-       <DawnsProjects />
+      <section id='Products-Flameingfeather'>
+       <FfProducts />
 
       </section>
 </div>

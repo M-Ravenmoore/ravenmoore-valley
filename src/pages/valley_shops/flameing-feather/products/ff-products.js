@@ -2,13 +2,16 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 
-function DawnsProjects (props){
+function FfProducts (props){
 
   return(
-    <div id='Projects'>
-      <h2>Projects</h2>
-      <section className="project-cards">
-        <Card  className="projects">
+    <div id='Products'>
+      <h2>Product Lines</h2>
+
+      {/* these cards shoud be generated from db and a template
+     */}
+      <section className="product-cards">
+        <Card  className="products">
           <Card.Img src="./images/" />
           <Card.Body>
             <Card.Title>Oils</Card.Title>
@@ -18,7 +21,7 @@ function DawnsProjects (props){
           </Card.Body>
           <Button href="#flameingfeather/oils">Current Oils</Button>
         </Card>
-        <Card className="projects">
+        <Card className="products">
           <Card.Img src="./images" />
           <Card.Body>
             <Card.Title>Tinctures</Card.Title>
@@ -34,4 +37,4 @@ function DawnsProjects (props){
   )
 }
 
-export default DawnsProjects;
+export default FfProducts;

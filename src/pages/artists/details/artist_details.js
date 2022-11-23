@@ -18,10 +18,11 @@ function ArtistDetails(props){
             <Card.Subtitle id="artistCraft">Title/Craft</Card.Subtitle>
             <Card.Text id="artistBio"> Bio.</Card.Text>
             <Card.Text id="artistSkills">Skills list </Card.Text>
+            {/* comes in as skills array */}
           </Card.Body>
           <div className="cardBtn">
             {/* fill href and button name with id="artistStore" */}
-            <Button variant="dark" href='#' >Valley Shop</Button>
+            <Button variant="dark" href='#/shops-main' >Valley Shop</Button>
             {/* fill href with id="artistWebsite" */}
             <Button variant="dark" href='' >Portfolio</Button>
           </div>

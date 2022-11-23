@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import HomeSlides from './home-slideshow';
+import HomeSlides from '../componets/home-slideshow';
 
 function Home(props){
 
