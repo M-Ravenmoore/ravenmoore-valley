@@ -13,7 +13,7 @@ import Tinctures from '../pages/valley_shops/flameing-feather/products/tinctures
 import Disclaimer from '../pages/disclaimer';
 import ShopsMain from '../pages/valley_shops/shops-main';
 
-import ArtistDetails from '../pages/artists/details/artist_details';
+import ArtistDetailsPage from '../pages/artists/artist_details';
 
 import ExternalApi from './auth/external-api-temp';
 
@@ -23,17 +23,24 @@ import ExternalApi from './auth/external-api-temp';
     <div id="main" className="main">
       <Switch>
         <Route exact path="/" component={Home} />
+
         <Route exact path="/about" component={About} />
+
         <Route exact path="/artists" component={Artists} />
+        <Route exact path="/artists/:artistId" component={ArtistDetailsPage} />
+
+        <Route exact path="/shops" component={ShopsMain} />
+
         <Route exact path="/searedscale" component={SearedScale} />
+
         <Route exact path="/flameingfeather" component={FlameingFeather} />
         <Route exact path="/flameingfeather/oils" component={Oils} />
         <Route exact path="/flameingfeather/tinctures" component={Tinctures} />
 
-        <Route exact path="/legal" component={Disclaimer} />
-        <Route path="/artistDetails" component={ArtistDetails} />
-        <Route exact path="/shops" component={ShopsMain} />
         <Route exact path="/news" component={News} />
+
+        <Route exact path="/legal" component={Disclaimer} />
+
 
         <Route exact path="/API" component={ExternalApi} />
 

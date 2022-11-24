@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import { Link } from 'react-router-dom';
 
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
@@ -18,7 +19,11 @@ export const ArtistList = () => {
           <Card.Text id="artistIntro">{artist.artistIntro}</Card.Text>
         </Card.Body>
         <div className="cardBtn">
-        <Button variant="dark" href='#/artistDetails' >Details</Button>
+        <Link to={`/artists/${artist.artistId}`}>
+          <Button variant="dark">
+            Details
+          </Button>
+        </Link>
         </div>
       </div>
       </Card>
