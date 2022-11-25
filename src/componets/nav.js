@@ -6,7 +6,6 @@ import ThemeSwitch from "./theme-switch";
 
 function NavigationBar(props){
   return(
-    <>
     <div className="nav-bar">
     <Navbar className="site-menu" expand="lg" variant="dark"  sticky="top">
       <Container className="nav-container">
@@ -18,7 +17,7 @@ function NavigationBar(props){
             <ThemeSwitch />
             <Nav.Link href="#/artists">Artisans</Nav.Link>
             <Nav.Link href="#/shops">Shops</Nav.Link>
-            {/* <Nav.Link href="#/news">News</Nav.Link> */}
+            <Nav.Link href="#/news">News</Nav.Link>
           </Nav>
         </Navbar.Collapse>    
       </Container>
@@ -26,7 +25,6 @@ function NavigationBar(props){
 
     
     </div>
-    </>
   )
 }
 
