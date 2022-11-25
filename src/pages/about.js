@@ -16,7 +16,7 @@ function About(props){
       <div id='imgContainer' className='infoPanel-A'>
         <img 
             className="aboutImg"
-            src="./images/"
+            src="./images/general/Old anvil.jpg"
             alt=""
           />
           </div>
@@ -26,7 +26,7 @@ function About(props){
         <div id='imgContainer' className='infoPanel-A'>
           <img 
               className="aboutImg"
-              src="./images/"
+              src="./images/general/First forge setup (2).jpg"
               alt=""
             />
         </div>
@@ -40,7 +40,7 @@ function About(props){
         <div id='imgContainer' className='infoPanel-A'>
           <img 
               className="aboutImg"
-              src="./images/"
+              src="./images/general/Full_Booth.jpg"
               alt=""
             />
         </div>

@@ -25,7 +25,7 @@ function Home(props){
         <section className="infoPanel-A" id="about">
           <img 
             className="panelImg"
-            src="./images/icons/day/about_sign_daymode.png"
+            src="./images/general/BoxForge.jpg"
             alt="seared_scale_logo"
           />
           <h4>Sit by the fire</h4>
@@ -36,7 +36,7 @@ function Home(props){
         <section className="infoPanel-A" id="Feather">
           <img 
             className="panelImg"
-            src="./images/icons/day/myrecipe_scroll_daymode.png"
+            src="./images/general/chain.jpg"
             alt="Flaming Feather apothics"
           />
           <h4>News</h4>
@@ -47,7 +47,7 @@ function Home(props){
         <section className="infoPanel-A" id="artisans">
           <img 
             className="panelImg"
-            src="./images/icons/day/profile_cultist_daymode.png"
+            src="./images/general/door.jpg"
             alt="Artisans"
           />
           <h4>Ravenmoore Valley Artisans</h4>
